@@ -29,7 +29,7 @@ rss: /atom.xml
 # Site
 site:
   logo:
-    enabled: true
+    enabled: false
     width: 40
     height: 40
     url: ../images/logo.png
@@ -86,7 +86,7 @@ search:
 
 # Donate
 donate:
-  enable: false
+  enable: true
   # 微信打赏
   wechatpay:
     qrcode: images/donate/wechatpayimg.jpeg
@@ -105,7 +105,7 @@ share:
 
 # Github
 github:
-  username: youyunyin  # github username
+  username: wangzhikui  # github username
 
 # Comment
 # Gitment
@@ -125,7 +125,7 @@ comment:
     lazy: false
   gitalk: # gitalk. https://gitalk.github.io/
     owner: wangzhikui #必须. GitHub repository 所有者，可以是个人或者组织。
-    admin: youyunyin #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+    admin: wangzhikui #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
     repo: wangzhikui.github.io #必须. GitHub repository.
     ClientID: fed3217906f39fc6e769 #必须. GitHub Application Client ID.
     ClientSecret: 56b2ce7d6867b4f7f252e84fb3be6c338703f0b1 #必须. GitHub Application Client Secret.
@@ -179,10 +179,10 @@ profile:
   avatar: images/avatar.png
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: 王智魁Allen
-  author_title: 
-  author_description: 
+  author_title: 程序员
+  author_description: 写写代码，谈谈人生
   location: 北京, 中国
-  follow: https://www.wushuning.com
+  follow: http://www.wushuning.com
   # Social Links
   social:
     links:
@@ -197,11 +197,9 @@ profile:
   # My Skills
   skills:
     Angularjs: 
-    Gulp:
     ES6:
-    Bootstrap:
-    Echarts:
     Vue:
+    gulp:
     Webpack:
     NodeJs:
     Git: #★★★☆☆
@@ -232,6 +230,15 @@ profile:
       date: 2016-2018
     DataFace(在研):
       link: 
+      date: 2018
+    IOSPROBE:
+      link: https://github.com/wangzhikui/iOSPROBE
+      date: 2017-2018
+    blog_src:
+      link: https://github.com/wangzhikui/wangzhikuiblog
+      date: 2018
+    blog:
+      link: https://github.com/wangzhikui/wangzhikui.github.io
       date: 2018
   # My Personal Projects
   # projects:
