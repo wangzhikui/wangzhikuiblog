@@ -180,7 +180,7 @@ profile:
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: 王智魁Allen
   author_title: 程序员
-  author_description: 写写代码，谈谈人生
+  author_description: 写写代码，谈谈人生，聊聊八卦
   location: 北京, 中国
   follow: http://www.wushuning.com
   # Social Links
@@ -196,6 +196,9 @@ profile:
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills
   skills:
+    Java: 
+    Spring:
+    javascript:
     Angularjs: 
     ES6:
     Vue:
@@ -203,8 +206,6 @@ profile:
     Webpack:
     NodeJs:
     Git: #★★★☆☆
-    Java: 
-    Spring MVC:
 
 
   # My Personal Links
@@ -231,14 +232,14 @@ profile:
     DataFace(在研):
       link: 
       date: 2018
+    友云音FED:
+      link: http://youyunyin.com
+      date: 2018
     IOSPROBE:
       link: https://github.com/wangzhikui/iOSPROBE
       date: 2017-2018
-    blog_src:
+    wangzhikuiblog:
       link: https://github.com/wangzhikui/wangzhikuiblog
-      date: 2018
-    blog:
-      link: https://github.com/wangzhikui/wangzhikui.github.io
       date: 2018
   # My Personal Projects
   # projects:

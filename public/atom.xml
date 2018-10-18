@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wushuning.com/"/>
-  <updated>2018-10-18T11:21:35.024Z</updated>
+  <updated>2018-10-18T16:15:22.168Z</updated>
   <id>http://wushuning.com/</id>
   
   <author>
@@ -17,19 +17,46 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>使用vue-cli搭建vue开发环境</title>
-    <link href="http://wushuning.com/2018/10/18/vue-cli/"/>
-    <id>http://wushuning.com/2018/10/18/vue-cli/</id>
-    <published>2018-10-18T11:21:35.024Z</published>
-    <updated>2018-10-18T11:21:35.024Z</updated>
+    <title>web全栈技术图谱v1.0</title>
+    <link href="http://wushuning.com/2018/10/18/web%E5%85%A8%E6%A0%88%E6%8A%80%E6%9C%AF%E5%9B%BE%E8%B0%B1v1-0/"/>
+    <id>http://wushuning.com/2018/10/18/web全栈技术图谱v1-0/</id>
+    <published>2018-10-17T16:00:00.000Z</published>
+    <updated>2018-10-18T16:15:22.168Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="vue环境搭建"><a href="#vue环境搭建" class="headerlink" title="vue环境搭建"></a>vue环境搭建</h2>]]></content>
+    <content type="html"><![CDATA[<p>近期一直在研究数据可视化产品，技术栈也不断变宽，变深。根据自己接触到的技术体系整理了一个web全栈技术图谱v1.0。做个记录，也给自己一个小目标，对每个技术方向都能出个入门教程，任重而道远<br><img src="/images/web全栈技术图谱v1.0.png" alt=""></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;vue环境搭建&quot;&gt;&lt;a href=&quot;#vue环境搭建&quot; class=&quot;headerlink&quot; title=&quot;vue环境搭建&quot;&gt;&lt;/a&gt;vue环境搭建&lt;/h2&gt;
+        &lt;p&gt;近期一直在研究数据可视化产品，技术栈也不断变宽，变深。根据自己接触到的技术体系整理了一个web全栈技术图谱v1.0。做个记录，也给自己一个小目标，对每个技术方向都能出个入门教程，任重而道远&lt;br&gt;&lt;img src=&quot;/images/web全栈技术图谱v1.0.png&quot; al
+      
+    
+    </summary>
+    
+      <category term="技术图谱" scheme="http://wushuning.com/categories/%E6%8A%80%E6%9C%AF%E5%9B%BE%E8%B0%B1/"/>
+    
+    
+      <category term="技术图谱" scheme="http://wushuning.com/tags/%E6%8A%80%E6%9C%AF%E5%9B%BE%E8%B0%B1/"/>
+    
+      <category term="前端" scheme="http://wushuning.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue基础教程(使用vue-cli搭建开发环境)</title>
+    <link href="http://wushuning.com/2018/10/10/vue%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B-%E4%BD%BF%E7%94%A8vue-cli%E6%90%AD%E5%BB%BA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    <id>http://wushuning.com/2018/10/10/vue基础教程-使用vue-cli搭建开发环境/</id>
+    <published>2018-10-09T16:00:00.000Z</published>
+    <updated>2018-10-18T16:10:13.782Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="vue环境搭建"><a href="#vue环境搭建" class="headerlink" title="vue环境搭建"></a>vue环境搭建</h2><h2 id="vue-cli"><a href="#vue-cli" class="headerlink" title="vue cli"></a>vue cli</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;vue环境搭建&quot;&gt;&lt;a href=&quot;#vue环境搭建&quot; class=&quot;headerlink&quot; title=&quot;vue环境搭建&quot;&gt;&lt;/a&gt;vue环境搭建&lt;/h2&gt;&lt;h2 id=&quot;vue-cli&quot;&gt;&lt;a href=&quot;#vue-cli&quot; class=&quot;headerlink
       
     
     </summary>
@@ -39,6 +66,8 @@
     
       <category term="vue" scheme="http://wushuning.com/tags/vue/"/>
     
+      <category term="vue-cli" scheme="http://wushuning.com/tags/vue-cli/"/>
+    
   </entry>
   
   <entry>
@@ -46,7 +75,7 @@
     <link href="http://wushuning.com/2018/10/01/markdown/"/>
     <id>http://wushuning.com/2018/10/01/markdown/</id>
     <published>2018-09-30T16:00:00.000Z</published>
-    <updated>2018-10-18T11:21:35.023Z</updated>
+    <updated>2018-10-18T12:05:08.329Z</updated>
     
     <content type="html"><![CDATA[<p>本文参考 <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#further-reading" target="_blank" rel="noopener">Github markdown 基本写法</a>，更多详细描述可直接前往Github查看  </p><h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>文字前使用(1-6个)#，不同数量代表文字不一样大小</p><h1 id="标题1"><a href="#标题1" class="headerlink" title="标题1"></a>标题1</h1><h2 id="标题2"><a href="#标题2" class="headerlink" title="标题2"></a>标题2</h2><h3 id="标题3"><a href="#标题3" class="headerlink" title="标题3"></a>标题3</h3><h4 id="标题4"><a href="#标题4" class="headerlink" title="标题4"></a>标题4</h4><h5 id="标题5"><a href="#标题5" class="headerlink" title="标题5"></a>标题5</h5><h6 id="标题6"><a href="#标题6" class="headerlink" title="标题6"></a>标题6</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 标题1</span><br><span class="line">## 标题2</span><br><span class="line">### 标题3</span><br><span class="line">#### 标题4</span><br><span class="line">##### 标题5</span><br><span class="line">###### 标题6</span><br></pre></td></tr></table></figure><h1 id="文本样式"><a href="#文本样式" class="headerlink" title="文本样式"></a>文本样式</h1><table><thead><tr><th style="text-align:left">样式</th><th style="text-align:center">语法</th><th style="text-align:right">快捷键</th><th style="text-align:right">示例</th><th style="text-align:right">效果</th></tr></thead><tbody><tr><td style="text-align:left">粗体</td><td style="text-align:center"><code>** **</code>或<code>__ __</code></td><td style="text-align:right">command/control + b</td><td style="text-align:right"><code>**Hello World**</code></td><td style="text-align:right"><strong>Hello World</strong></td></tr><tr><td style="text-align:left">斜体</td><td style="text-align:center"><code>* *</code>或<code>_ _</code></td><td style="text-align:right">command/control + i</td><td style="text-align:right"><code>*Hello World*</code></td><td style="text-align:right"><em>Hello World</em></td></tr><tr><td style="text-align:left">删除</td><td style="text-align:center"><code>~~ ~~</code></td><td style="text-align:right">无</td><td style="text-align:right"><code>~~Hello World~~</code></td><td style="text-align:right"><del>Hello World</del></td></tr><tr><td style="text-align:left">粗体&amp;斜体</td><td style="text-align:center"><code>~~ ~~</code>和<code>_ _</code></td><td style="text-align:right">无</td><td style="text-align:right"><code>**Hello _World_**</code></td><td style="text-align:right"><strong>Hello <em>World</em></strong></td></tr></tbody></table><p>表格源码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">| 样式 | 语法 | 快捷键 | 示例 | 效果 |</span><br><span class="line">|:----|:----:|-----:|-----:|----:|</span><br><span class="line">| 粗体 | `** **`或`__ __` | command/control + b | `**Hello World**` | **Hello World**|</span><br><span class="line">| 斜体 | `* *`或`_ _` | command/control + i | `*Hello World*` | *Hello World* |</span><br><span class="line">| 删除 | `~~ ~~` | 无 | `~~Hello World~~` | ~~Hello World~~ |</span><br><span class="line">| 粗体&amp;斜体 | `~~ ~~`和`_ _` | 无 | `**Hello _World_**` | **Hello _World_** |</span><br></pre></td></tr></table></figure></p><h1 id="引用文本"><a href="#引用文本" class="headerlink" title="引用文本"></a>引用文本</h1><p>使用 &gt;，可以使用多个&gt;来嵌套</p><blockquote><p>被引用的文字</p><blockquote><p>被引用的文字2</p><blockquote><p>被引用的文字3  </p></blockquote></blockquote></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 被引用的文字</span><br><span class="line">&gt;&gt; 被引用的文字2</span><br><span class="line">&gt;&gt;&gt; 被引用的文字3</span><br></pre></td></tr></table></figure><h1 id="引用代码"><a href="#引用代码" class="headerlink" title="引用代码"></a>引用代码</h1><p>使用如下标志将文字包含即可</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">使用``` ``` 将代码包含即可</span><br><span class="line">也可以加上语言来使得块中语法高亮</span><br><span class="line">  ``` java</span><br><span class="line">  ``` javascript</span><br><span class="line">  ``` html</span><br></pre></td></tr></table></figure><p>基础格式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br><span class="line">git add</span><br><span class="line">git commit</span><br></pre></td></tr></table></figure></p><p>java<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">  System.out.print(<span class="string">"Hello World"</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>javascript<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">sayHello</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">'Hello World'</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>html<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">h1</span>&gt;</span> Hello World <span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></p><p>Github使用<a href="https://github.com/github/linguist" target="_blank" rel="noopener">Linguist</a>进行语言检测，并选择<a href="https://github.com/github/linguist/blob/master/vendor/README.md" target="_blank" rel="noopener">第三方语法</a>进行语法突出显示。您可以在<a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank" rel="noopener">YAML</a>文件中找到哪些关键字是有效的。</p><h1 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[友云音](http://yyy.yonyoucloud.com)</span><br></pre></td></tr></table></figure><p><a href="http://yyy.yonyoucloud.com" target="_blank" rel="noopener">友云音</a></p><p>链接可以使用相对地址</p><table><thead><tr><th style="text-align:left">语法</th><th style="text-align:center">目录</th></tr></thead><tbody><tr><td style="text-align:left">/</td><td style="text-align:center">根目录</td></tr><tr><td style="text-align:left">./</td><td style="text-align:center">当前目录</td></tr><tr><td style="text-align:left">../</td><td style="text-align:center">上级目录</td></tr></tbody></table><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[友云音logo](/images/logo/youyunyin-logo.png)</span><br></pre></td></tr></table></figure><p><a href="/images/logo/youyunyin-logo.png">友云音logo</a></p><h1 id="部分链接"><a href="#部分链接" class="headerlink" title="部分链接"></a>部分链接</h1><p>当我们写好md发布渲染生成html之后，当鼠标移动到某一块的头部的时候会显示#（也有可能是其他图表），点击之后地址栏会生成一个部分连接。使用该地址栏的地址访问该文章会自动定位到点击的这个块。<br>比如本文的地址是:<br><a href="http://youyunyin.com/2018/10/01/markdown/" target="_blank" rel="noopener">http://youyunyin.com/2018/10/01/markdown/</a><br>点击[文本样式]这个标题，地址栏url变为<br><a href="http://youyunyin.com/2018/10/01/markdown/#文本样式" target="_blank" rel="noopener">http://youyunyin.com/2018/10/01/markdown/#文本样式</a><br>点击改链接就会直接进入该页面并跳转到[文本样式]块中</p><h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>使用 - 或者 *</p><ul><li>第1行</li><li>第2行<ul><li>第2-1行<ul><li>第2-1-1行</li><li>第2-1-2行</li></ul></li><li>第2-2行</li></ul></li><li>第3行</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">- 第1行</span><br><span class="line">- 第2行</span><br><span class="line">  - 第2-1行</span><br><span class="line">    - 第2-1-1行</span><br><span class="line">    - 第2-1-2行</span><br><span class="line">  - 第2-2行</span><br><span class="line">- 第3行</span><br></pre></td></tr></table></figure><p>使用数字  </p><ol><li>第1行</li><li>第2行</li><li>第3行</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 第1行</span><br><span class="line">2. 第2行</span><br><span class="line">3. 第3行</span><br></pre></td></tr></table></figure><h1 id="任务列表（gihub扩展，非标准markdown）"><a href="#任务列表（gihub扩展，非标准markdown）" class="headerlink" title="任务列表（gihub扩展，非标准markdown）"></a>任务列表（gihub扩展，非标准markdown）</h1><ul><li style="list-style: none"><input type="checkbox" checked> 任务1</li><li style="list-style: none"><input type="checkbox"> 任务2</li><li style="list-style: none"><input type="checkbox"> 任务3</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- [x] 任务1</span><br><span class="line">- [ ] 任务2</span><br><span class="line">- [ ] 任务3</span><br></pre></td></tr></table></figure><h1 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h1><p>文字后面输入两个空格换行</p><h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p><img src="/images/logo/youyunyin-logo.png" alt="友云音logo" title="友云音logo"><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![友云音logo](/images/logo/youyunyin-logo.png &quot;友云音logo&quot;)</span><br></pre></td></tr></table></figure></p><h1 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h1><p>使用 三个以上 - 或 *<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">----</span><br><span class="line">***</span><br><span class="line">****</span><br></pre></td></tr></table></figure></p><hr><hr><hr><hr>]]></content>
     
@@ -67,11 +96,374 @@
   </entry>
   
   <entry>
+    <title>MAC破解安装IntelliJ IDEA方法</title>
+    <link href="http://wushuning.com/2018/01/11/MAC%E7%A0%B4%E8%A7%A3%E5%AE%89%E8%A3%85IntelliJ-IDEA%E6%96%B9%E6%B3%95/"/>
+    <id>http://wushuning.com/2018/01/11/MAC破解安装IntelliJ-IDEA方法/</id>
+    <published>2018-01-10T16:00:00.000Z</published>
+    <updated>2018-10-18T15:35:58.829Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="MAC下破解安装Intellij-IDEA-2017-方法"><a href="#MAC下破解安装Intellij-IDEA-2017-方法" class="headerlink" title="MAC下破解安装Intellij IDEA 2017 方法"></a>MAC下破解安装Intellij IDEA 2017 方法</h1><p>破解的版本：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">IntelliJ IDEA 2017.3.2 (Ultimate Edition)  </span><br><span class="line">Build #IU-173.4127.27, built on December 26, 2017  </span><br><span class="line">Licensed to Rover12421 / Rover12421  </span><br><span class="line">You have a perpetual fallback license for this version  </span><br><span class="line">Subscription is active until December 31, 2099  </span><br><span class="line">JRE: 1.8.0_152-release-1024-b8 x86_64  </span><br><span class="line">JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o  </span><br><span class="line">Mac OS X 10.13.2</span><br></pre></td></tr></table></figure></p><h2 id="1、下载IntelliJ-IDEA-2017"><a href="#1、下载IntelliJ-IDEA-2017" class="headerlink" title="1、下载IntelliJ IDEA 2017"></a>1、下载IntelliJ IDEA 2017</h2><p><a href="https://www.jetbrains.com/idea/download/#section=mac" target="_blank" rel="noopener">IDEA官网下载无限制版</a><br><img src="/images/idea/ideadownload.jpg" width="60%"></p><h2 id="2、下载破解文件JetbrainsCrack-2-6-2-jar"><a href="#2、下载破解文件JetbrainsCrack-2-6-2-jar" class="headerlink" title="2、下载破解文件JetbrainsCrack-2.6.2.jar"></a>2、下载破解文件JetbrainsCrack-2.6.2.jar</h2><p><a href="http://idea.lanyus.com" target="_blank" rel="noopener">进入下载界面</a>  </p><p><img src="/images/idea/coderegist.png" width="60%"></p><h2 id="3、安装IntelliJ-IDEA-2017"><a href="#3、安装IntelliJ-IDEA-2017" class="headerlink" title="3、安装IntelliJ IDEA 2017"></a>3、安装IntelliJ IDEA 2017</h2><h2 id="4、安装后Applications文件夹中找到IDEA-右键show-package-contents找到bin目录下，将下载的破解文件拷贝到该目录下"><a href="#4、安装后Applications文件夹中找到IDEA-右键show-package-contents找到bin目录下，将下载的破解文件拷贝到该目录下" class="headerlink" title="4、安装后Applications文件夹中找到IDEA,右键show package contents找到bin目录下，将下载的破解文件拷贝到该目录下"></a>4、安装后Applications文件夹中找到IDEA,右键show package contents找到bin目录下，将下载的破解文件拷贝到该目录下</h2><p><img src="/images/idea/registaccess.png" width="60%"></p><h2 id="5、打开上图中的idea-vmoptions追加如下配置"><a href="#5、打开上图中的idea-vmoptions追加如下配置" class="headerlink" title="5、打开上图中的idea.vmoptions追加如下配置"></a>5、打开上图中的idea.vmoptions追加如下配置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-javaagent:/Applications/IntelliJ IDEA.app/Contents/bin/JetbrainsCrack-2.6.10-release-enc.jar</span><br></pre></td></tr></table></figure><h2 id="6、启动IDEA-提示需要注册，将获取的注册码填入"><a href="#6、启动IDEA-提示需要注册，将获取的注册码填入" class="headerlink" title="6、启动IDEA 提示需要注册，将获取的注册码填入"></a>6、启动IDEA 提示需要注册，将获取的注册码填入</h2><p>Help &gt; Register<br><img src="/images/idea/registin.png" width="60%"><br>选中Activation code 将注册码填入下面的输入框中即可<br><img src="/images/idea/registwindow.png" width="60%"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;MAC下破解安装Intellij-IDEA-2017-方法&quot;&gt;&lt;a href=&quot;#MAC下破解安装Intellij-IDEA-2017-方法&quot; class=&quot;headerlink&quot; title=&quot;MAC下破解安装Intellij IDEA 2017 方法&quot;&gt;&lt;/a
+      
+    
+    </summary>
+    
+      <category term="idea" scheme="http://wushuning.com/categories/idea/"/>
+    
+    
+      <category term="idea" scheme="http://wushuning.com/tags/idea/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java性能调优的11个实用技巧</title>
+    <link href="http://wushuning.com/2017/11/24/Java%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98%E7%9A%8411%E4%B8%AA%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+    <id>http://wushuning.com/2017/11/24/Java性能调优的11个实用技巧/</id>
+    <published>2017-11-23T16:00:00.000Z</published>
+    <updated>2018-10-18T15:26:52.084Z</updated>
+    
+    <content type="html"><![CDATA[<p>作者：ITeye<br>来源：ITeye[<a href="http://www.iteye.com/news/32754]" target="_blank" rel="noopener">http://www.iteye.com/news/32754]</a></p><p>大多数开发人员认为性能优化是个比较复杂的问题，需要大量的经验和知识。是的，这并不没有错。诚然，优化应用程序以获得最好的性能并不是一件容易的事情，但这并不意味着你在没有获得这些经验和知识之前就不能做任何事。下面有几个很容易遵循的建议和最佳实践能够帮你创建一个性能良好的应用程序。</p><p>这些建议中的大多数都是基于Java的，但是也不一定，也有一些是可以应用于所有的应用程序和编程语言的。在我们分享基于Java的性能调优技巧之前，让我们先讨论一下这些通用的性能调优技巧。</p><h3 id="1-在必要之前，先不要优化"><a href="#1-在必要之前，先不要优化" class="headerlink" title="1.在必要之前，先不要优化"></a>1.在必要之前，先不要优化</h3><p>这可能是最最重要的性能调优技巧之一。你应该遵循常见的最佳实践，并尝试有效地实现你的用例。但这并不意味着在证明它是必要之前，替换任何标准库或构建复杂的优化。</p><p>在大多数情况下，过早的优化占用了大量的时间，使得代码难以读取和维护。更糟糕的是，这些优化通常不会带来任何好处，因为你花费了大量时间来优化应用程序的非关键部分。</p><p>那么，你如何证明你需要优化某些东西呢?</p><p>首先，你需要确定应用程序代码的速度，例如，为所有API调用指定一个最大响应时间，或者指定在特定时间范围内导入的记录数量。完成之后，你可以度量应用程序的哪些部分太慢而需要改进。当这样做之后，那么请继续看第二个调优技巧。</p><h3 id="2-使用分析器来找到真正的瓶颈"><a href="#2-使用分析器来找到真正的瓶颈" class="headerlink" title="2.使用分析器来找到真正的瓶颈"></a>2.使用分析器来找到真正的瓶颈</h3><p>在你遵循第一条建议，并确定你的应用程序的某些部分的确需要改进之后，问自己从哪里开始?</p><p>你可以用两种方法来解决这个问题:</p><p>你可以看一下你的代码，从看起来可疑或者你觉得它可能会产生问题的部分开始。<br>或者使用分析器，获取代码中每个部分的行为和性能的详细信息。<br>至于为什么应该总是遵循第二种方法。</p><p>答案应该很明显，基于分析器的方法能让你更好地理解代码的性能含义，并允许你关注最关键的部分。如果你曾经使用过分析器，你将会惊讶于代码的哪些部分造成了性能问题。然而，很多时候，你的第一次猜想会把你引向错误的方向。</p><h3 id="3-为整个应用程序创建性能测试套件"><a href="#3-为整个应用程序创建性能测试套件" class="headerlink" title="3 .为整个应用程序创建性能测试套件"></a>3 .为整个应用程序创建性能测试套件</h3><p>这是另一个帮助你避免许多意想不到问题的一般技巧，这些问题通常发生在性能改进部署到生产环境之后。你应该经常定义测试整个应用程序的性能测试套件，并在你完成性能改进之前和之后运行它。</p><p>这些额外的测试运行将帮助你识别更改的功能和性能方面的影响，并确保你不会发布一个弊大于利的更新。如果你的任务运行于应用程序的多个不同部分比如数据库或缓存，这一点尤其重要。</p><h3 id="4-首先解决最大的瓶颈问题"><a href="#4-首先解决最大的瓶颈问题" class="headerlink" title="4.首先解决最大的瓶颈问题"></a>4.首先解决最大的瓶颈问题</h3><p>在创建了测试套件并使用分析器对应用程序进行分析之后，你就有了一个需要提高性能的问题列表，这很好，但它仍然不能回答你应该从哪里开始的问题。你可以从那些可以快速搞定的开始，亦或者从最重要的问题开始。</p><p>当然前者很诱人，因为这很快就能出结果。有时，可能需要说服其他团队成员或你的管理层，性能分析是值得的。</p><p>但总的来说，我建议首先着手处理最重要的性能问题。这将为你提供最大的性能改进，而且你可能只需要修复这些问题中的几个就可以解决你的性能需求。</p><p>在了解通用性能调优技巧之后，让我们再来仔细看看一些特定于Java的调优技巧。</p><h3 id="5-使用StringBuilder以编程方式连接字符串"><a href="#5-使用StringBuilder以编程方式连接字符串" class="headerlink" title="5.使用StringBuilder以编程方式连接字符串"></a>5.使用StringBuilder以编程方式连接字符串</h3><p>在Java中有许多不同的连接字符串的选项。例如，可以使用一个简单的+或+ =、老的StringBuffer或StringBuilder。</p><p>那么，你应该选择哪种方法呢?</p><p>答案取决于连接字符串的代码。如果你以编程方式向字符串中添加新内容，例如，在for循环中，你应该使用StringBuilder。它比StringBuffer更容易使用和提供更好的性能。但是请记住，StringBuilder与StringBuffer不同，它不是线程安全的，而且可能不适合所有用例。</p><p>你只需要实例化一个新的StringBuilder，并调用append方法在字符串中添加一个新的部分。当你添加了所有的部分后，可以调用toString()方法来检索连接字符串。</p><p>下面的代码片段展示了一个简单的示例。在每次迭代过程中，这个循环将i转换成一个字符串，并将其添加到StringBuilder sb的空间中，因此到最后，这段代码写入“this is test0123456789”到日志文件。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">StringBuilder sb = <span class="keyword">new</span> StringBuilder(“This is a test”);  </span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;<span class="number">10</span>; i++) &#123;  </span><br><span class="line">    sb.append(i);  </span><br><span class="line">    sb.append(” “);  </span><br><span class="line">&#125;  </span><br><span class="line">log.info(sb.toString());</span><br></pre></td></tr></table></figure><p>正如在代码片段中看到的，你可以为构造函数方法提供字符串的第一个元素。这将创建一个新的StringBuilder，其中包含提供的字符串和16个额外字符的容量。当你向StringBuilder中添加更多字符时，JVM将动态地改变StringBuilder的大小。</p><p>如果你已经知道自己的字符串包含多少字符，那么你可以向不同的构造函数方法提供这个数字，以实例化一个具有被定义容量的StringBuilder。这进一步提高了它的效率，因为它不需要动态扩展它的容量。</p><h3 id="6-在声明中使用-连接字符串"><a href="#6-在声明中使用-连接字符串" class="headerlink" title="6.在声明中使用+连接字符串"></a>6.在声明中使用+连接字符串</h3><p>当你在Java中实现第一个应用程序时，可能有人告诉你不应该用＋来连接字符串。如果在应用程序逻辑中连接字符串这是正确的。字符串是不可变的，每个字符串连接的结果存储在一个新的字符串对象中。这需要额外的内存，并降低应用程序的速度，特别是在循环中连接多个字符串时。</p><p>在这些情况下，你应该遵循tip 5并使用StringBuilder。</p><p>但如果你只是将一个字符串分解成多行来提高代码的可读性，那就不是这样了。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Query q = em.createQuery(“SELECT a.id, a.firstName, a.lastName ”  </span><br><span class="line">+ “FROM Author a ”  </span><br><span class="line">+ “WHERE a.id = :id”);</span><br></pre></td></tr></table></figure><p>在这些情况下，你应该用一个简单的+来连接你的字符串。Java编译器将优化它并在编译时执行连接。因此，在运行时，代码只使用1个字符，不需要连接。</p><h3 id="7-尽可能使用基本数据类型"><a href="#7-尽可能使用基本数据类型" class="headerlink" title="7.尽可能使用基本数据类型"></a>7.尽可能使用基本数据类型</h3><p>另一种避免开销，提高应用程序性能的快速方法就是使用原始数据类型而不是它们的包装类。因此，最好是使用int而不是Integer，或者是double而不是Double。这将让JVM将值存储在堆栈中，以减少内存消耗，并更有效地处理它。</p><h3 id="8-尽量避免BigInteger和BigDecimal"><a href="#8-尽量避免BigInteger和BigDecimal" class="headerlink" title="8.尽量避免BigInteger和BigDecimal"></a>8.尽量避免BigInteger和BigDecimal</h3><p>由于我们已经讨论了数据类型，我们再来看下BigInteger和BigDecimal。尤其是后者，由于其精度高而受欢迎。但这是有代价的。<br>BigInteger和BigDecimal比简单的long或double需要更多的内存，并且大大降低所有的计算速度。因此，如果你需要额外的精度，或者你的数字超过了一个long范围，最好三思而后行。这可能是你在提升性能问题中唯一需要更改的地方，特别是当你正在实现一个数学算法。</p><h3 id="9-首先检查当前日志级别"><a href="#9-首先检查当前日志级别" class="headerlink" title="9.首先检查当前日志级别"></a>9.首先检查当前日志级别</h3><p>这个建议是显而易见的，但不幸的是，你会发现许多代码忽略它。在创建调试消息之前，应该先检查当前日志级别。</p><p>这里有两个例子来说明你不应该这样做。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// don’t do this  </span></span><br><span class="line">log.debug(“User [” + userName + “] called method X with [” + i + “]”);  </span><br><span class="line"><span class="comment">// or this  </span></span><br><span class="line">log.debug(String.format(“User [%s] called method X with [%d]”, userName, i));</span><br></pre></td></tr></table></figure><p>在这两种情况下，你将执行所有需要的步骤来创建日志消息，而不知道日志框架是否使用日志消息。在创建调试消息之前，最好先检查当前日志级别。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// do this  </span></span><br><span class="line"><span class="keyword">if</span> (log.isDebugEnabled()) &#123;  </span><br><span class="line">    log.debug(“User [” + userName + “] called method X with [” + i + “]”);  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="10-使用Apache-Commons-StringUtils-Replace-代替String-replace"><a href="#10-使用Apache-Commons-StringUtils-Replace-代替String-replace" class="headerlink" title="10.使用Apache Commons StringUtils.Replace 代替String.replace"></a>10.使用Apache Commons StringUtils.Replace 代替String.replace</h3><p>一般来说,String.replace 方法工作得很好，而且非常高效，特别是如果你使用的是Java 9。但是，如果应用程序需要大量的替换操作，并且你还没有更新到最新的Java版本，那么检查更快和更有效的替代方案仍然是有意义的。</p><p>一个候选就是 Apache Commons Lang’s StringUtils.replace 方法。正如Lukas Eder在他最近的一篇博客文章中所描述的那样，它大大超过了Java 8的String.replace 方法。</p><p>它只需要很小的改变。你只需要为Apache’s Commons Lang 项目增加一个Maven依赖项到你的应用pom.xml，并用StringUtils.replace方法替换所有String.replace方法的调用。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// replace this  </span></span><br><span class="line">test.replace(“test”, “simple test”);  </span><br><span class="line"><span class="comment">// with this  </span></span><br><span class="line">StringUtils.replace(test, “test”, “simple test”);</span><br></pre></td></tr></table></figure><h3 id="11-缓存昂贵的资源，比如数据库连接"><a href="#11-缓存昂贵的资源，比如数据库连接" class="headerlink" title="11.缓存昂贵的资源，比如数据库连接"></a>11.缓存昂贵的资源，比如数据库连接</h3><p>缓存是一种流行的解决方案来避免重复执行昂贵或频繁使用的代码片段。一般的想法很简单:重复使用这些资源比一次又一次地创建一个新的资源要便宜得多。</p><p>一个典型的例子就是在池中缓存数据库连接。创建新连接需要时间，如果重用现有连接，则可以避免。</p><p>还可以在Java语言本身中找到其他示例。例如，Integer类的valueOf方法缓存了- 128和127之间的值。你可能会说，创建一个新整数并不太贵，但它经常使用，缓存最常用的值提供了性能方面的好处。</p><p>但当你考虑缓存时，请记住，缓存实现也会产生开销。你需要花费额外的内存来存储可重用资源，因此可能需要管理你的缓存，以使资源能够访问或删除过时的资源。</p><p>因此，在你开始缓存任何资源之前，请确保是经常使用。</p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>正如你所看到的，提高应用程序的性能有时不需要做大量的工作。这篇文章中的大多数建议，其实只需要稍微的努力就可以将它们应用到代码中。</p><p>但通常最重要的建议是很编程语言无关的:</p><ul><li>在你知道有必要之前，不要优化</li><li>使用分析器来找到真正的瓶颈</li><li>首先解决最大的瓶颈问题</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;作者：ITeye&lt;br&gt;来源：ITeye[&lt;a href=&quot;http://www.iteye.com/news/32754]&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.iteye.com/news/32754]&lt;/a&gt;&lt;/p&gt;
+&lt;
+      
+    
+    </summary>
+    
+      <category term="java" scheme="http://wushuning.com/categories/java/"/>
+    
+    
+      <category term="java性能" scheme="http://wushuning.com/tags/java%E6%80%A7%E8%83%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot入门环境搭建，maven构建，Intellij IDEA 2016.2</title>
+    <link href="http://wushuning.com/2017/11/24/SpringBoot%E5%85%A5%E9%97%A8%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%EF%BC%8Cmaven%E6%9E%84%E5%BB%BA%EF%BC%8CIntellij-IDEA-2016-2/"/>
+    <id>http://wushuning.com/2017/11/24/SpringBoot入门环境搭建，maven构建，Intellij-IDEA-2016-2/</id>
+    <published>2017-11-23T16:00:00.000Z</published>
+    <updated>2018-10-18T15:37:58.338Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Intellij-IDEA工具下搭建SpringBoot入门程序使用maven"><a href="#Intellij-IDEA工具下搭建SpringBoot入门程序使用maven" class="headerlink" title="Intellij IDEA工具下搭建SpringBoot入门程序使用maven"></a>Intellij IDEA工具下搭建SpringBoot入门程序使用maven</h1><h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><ul><li>Intellij IDEA 2016.2  </li><li>maven 3.0.5  </li><li>SpringBoot 1.5.8  </li></ul><h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><h3 id="一、新建项目"><a href="#一、新建项目" class="headerlink" title="一、新建项目"></a>一、新建项目</h3><p>file-&gt;new-&gt;project<br>创建项目选择maven如下图<br><img src="/images/springboot/springboot-new-1.jpeg" alt=""><br>点击next<br>如图填入自己项目的信息，由于是创建的maven项目，所以此处填写maven需要的字段信息，具体见途中说明<br><img src="/images/springboot/springboot-new-2.jpeg" alt=""><br>点击next<br>这一步填写项目的名称和存储的路径<br><img src="/images/springboot/springboot-new-3.jpeg" alt=""><br>点击finish创建成功<br>到这一步一个简单的maven工程就创建完成了。</p><h3 id="二、添加springboot支持"><a href="#二、添加springboot支持" class="headerlink" title="二、添加springboot支持"></a>二、添加springboot支持</h3><p>pom.xml文件中增加配置<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">parent</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter-parent<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.5.8.RELEASE<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">relativePath</span>/&gt;</span> <span class="comment">&lt;!-- lookup parent from repository --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">parent</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">properties</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">project.build.sourceEncoding</span>&gt;</span>UTF-8<span class="tag">&lt;/<span class="name">project.build.sourceEncoding</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">project.reporting.outputEncoding</span>&gt;</span>UTF-8<span class="tag">&lt;/<span class="name">project.reporting.outputEncoding</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">java.version</span>&gt;</span>1.8<span class="tag">&lt;/<span class="name">java.version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">properties</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">dependencies</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter-web<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter-test<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">scope</span>&gt;</span>test<span class="tag">&lt;/<span class="name">scope</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-devtools<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">optional</span>&gt;</span>true<span class="tag">&lt;/<span class="name">optional</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependencies</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">build</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">plugins</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">plugin</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-maven-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">configuration</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">fork</span>&gt;</span>true<span class="tag">&lt;/<span class="name">fork</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">configuration</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">plugins</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">build</span>&gt;</span></span><br></pre></td></tr></table></figure></p><p>由于最终要打包成jar格式所以pom.xml中还需增加配置<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.wzk<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring02<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">version</span>&gt;</span>1.0-SNAPSHOT<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">packaging</span>&gt;</span>jar<span class="tag">&lt;/<span class="name">packaging</span>&gt;</span></span><br></pre></td></tr></table></figure></p><p>注意:<packaging>jar</packaging>参数的值为:jar</p><h3 id="三、编写测试代码"><a href="#三、编写测试代码" class="headerlink" title="三、编写测试代码"></a>三、编写测试代码</h3><p>创建类如下，SpringBoot的启动类，如果不做任何配置，默认启动的容器是tomcat<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.wzk.ms;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.springframework.boot.SpringApplication;</span><br><span class="line"><span class="keyword">import</span> org.springframework.boot.autoconfigure.SpringBootApplication;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@SpringBootApplication</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SpringbootApplication</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        SpringApplication.run(SpringbootApplication.class, args);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>再写一个自己的controller类，输入经典的helloworld<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.wzk.ms;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RequestMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RestController;</span><br><span class="line"></span><br><span class="line"><span class="meta">@RestController</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorldController</span> </span>&#123;</span><br><span class="line">    <span class="meta">@RequestMapping</span>(<span class="string">"/hello"</span>)</span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">index</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        String test = <span class="string">"Hello"</span>;</span><br><span class="line">        String test1 = <span class="string">" world"</span>;</span><br><span class="line">        String returnStr = test + test1;</span><br><span class="line">        <span class="keyword">return</span> returnStr;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><h3 id="四、启动测试"><a href="#四、启动测试" class="headerlink" title="四、启动测试"></a>四、启动测试</h3><ul><li>SpringbootApplication是一个含有main方法的java程序，所以直接运行</li><li>浏览器输入<a href="http://localhost:8080/hello" target="_blank" rel="noopener">http://localhost:8080/hello</a><br>因为默认是tomcat所以端口默认8080，返回Hello world.</li></ul><h3 id="五、配置"><a href="#五、配置" class="headerlink" title="五、配置"></a>五、配置</h3><p>修改springboot的配置很简单，直接修改resource下的application.properties文件即可。<br>如修改访问端口为8081，添加配置<br>server.port=8081</p><p>tomcat的其他配置可以参考<br>server.port=8081<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">#server.address= # bind to a specific NIC</span><br><span class="line">#server.session-timeout= # session timeout in seconds</span><br><span class="line">#the context path, defaults to &apos;/&apos;</span><br><span class="line">#server.context-path=/spring-boot</span><br><span class="line">#server.servlet-path= # the servlet path, defaults to &apos;/&apos;</span><br><span class="line">#server.tomcat.access-log-pattern= # log pattern of the access log</span><br><span class="line">#server.tomcat.access-log-enabled=false # is access logging enabled</span><br><span class="line">#server.tomcat.protocol-header=x-forwarded-proto # ssl forward headers</span><br><span class="line">#server.tomcat.remote-ip-header=x-forwarded-for</span><br><span class="line">#server.tomcat.basedir=/tmp # base dir (usually not needed, defaults to tmp)</span><br><span class="line">#server.tomcat.background-processor-delay=30; # in seconds</span><br><span class="line">#server.tomcat.max-threads = 0 # number of threads in protocol handler</span><br><span class="line">#server.tomcat.uri-encoding = UTF-8 # character encoding to use for URL decoding</span><br></pre></td></tr></table></figure></p><h3 id="六、打包成jar"><a href="#六、打包成jar" class="headerlink" title="六、打包成jar"></a>六、打包成jar</h3><p>打包成可运行的jar<br>intelliJ打开命令行，运行mvn clean package即可<br>默认输出到target目录下，然后输入java -jar xxx.jar即可启动<br>关闭命令行窗口即关闭了容器</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Intellij-IDEA工具下搭建SpringBoot入门程序使用maven&quot;&gt;&lt;a href=&quot;#Intellij-IDEA工具下搭建SpringBoot入门程序使用maven&quot; class=&quot;headerlink&quot; title=&quot;Intellij IDEA工
+      
+    
+    </summary>
+    
+      <category term="springboot" scheme="http://wushuning.com/categories/springboot/"/>
+    
+    
+      <category term="springboot" scheme="http://wushuning.com/tags/springboot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot无法启动，启动后报404错误</title>
+    <link href="http://wushuning.com/2017/11/24/SpringBoot%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%EF%BC%8C%E5%90%AF%E5%8A%A8%E5%90%8E%E6%8A%A5404%E9%94%99%E8%AF%AF/"/>
+    <id>http://wushuning.com/2017/11/24/SpringBoot无法启动，启动后报404错误/</id>
+    <published>2017-11-23T16:00:00.000Z</published>
+    <updated>2018-10-18T15:20:02.836Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="SpringBoot无法启动"><a href="#SpringBoot无法启动" class="headerlink" title="SpringBoot无法启动"></a>SpringBoot无法启动</h1><p>可能的原因：直接将启动类放在了src.java.main下<br>解决方案：在main下创建自己的packadge<br>如:src.java.main.com.wzk.starter  </p><h1 id="SpringBoot正常启动，但是访问的时候提示404"><a href="#SpringBoot正常启动，但是访问的时候提示404" class="headerlink" title="SpringBoot正常启动，但是访问的时候提示404"></a>SpringBoot正常启动，但是访问的时候提示404</h1><p>原因是：controller没有被spring容器扫描到<br>解决方案1：spring boot默认扫描启动类的当前包和下级包<br>比如：启动类在 com.wzk.starter包下，那么spring 会扫描 com.wzk.starter和com.wzk.starter.*<br>如果编写的controller没有放置在这些位置就是报错</p><p>解决方案2：配置spring boot的扫描路径<br>在启动类上面添加注解：@ComponentScan(basePackages = {“com.wzk.*”})  </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;SpringBoot无法启动&quot;&gt;&lt;a href=&quot;#SpringBoot无法启动&quot; class=&quot;headerlink&quot; title=&quot;SpringBoot无法启动&quot;&gt;&lt;/a&gt;SpringBoot无法启动&lt;/h1&gt;&lt;p&gt;可能的原因：直接将启动类放在了src.jav
+      
+    
+    </summary>
+    
+      <category term="springboot" scheme="http://wushuning.com/categories/springboot/"/>
+    
+    
+      <category term="springboot" scheme="http://wushuning.com/tags/springboot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>猫-森林-纪念</title>
+    <link href="http://wushuning.com/2017/10/26/%E7%BA%AA%E5%BF%B5%E7%88%B1%E7%8C%AB%E6%A3%AE%E6%9E%97/"/>
+    <id>http://wushuning.com/2017/10/26/纪念爱猫森林/</id>
+    <published>2017-10-25T16:00:00.000Z</published>
+    <updated>2018-10-18T15:18:39.815Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="2015-4-18号"><a href="#2015-4-18号" class="headerlink" title="2015-4-18号"></a>2015-4-18号</h1><p><img src="/images/senlin/senlin-1-start.jpeg" alt="森林"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;2015-4-18号&quot;&gt;&lt;a href=&quot;#2015-4-18号&quot; class=&quot;headerlink&quot; title=&quot;2015-4-18号&quot;&gt;&lt;/a&gt;2015-4-18号&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/images/senlin/senlin-1-star
+      
+    
+    </summary>
+    
+      <category term="人生" scheme="http://wushuning.com/categories/%E4%BA%BA%E7%94%9F/"/>
+    
+    
+      <category term="人生" scheme="http://wushuning.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设计模式-极简笔记-6大设计原则</title>
+    <link href="http://wushuning.com/2017/10/13/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E6%9E%81%E7%AE%80%E7%AC%94%E8%AE%B0-6%E5%A4%A7%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/"/>
+    <id>http://wushuning.com/2017/10/13/设计模式-极简笔记-6大设计原则/</id>
+    <published>2017-10-12T16:00:00.000Z</published>
+    <updated>2018-10-18T15:16:19.155Z</updated>
+    
+    <content type="html"><![CDATA[<p>通过尽量少的语言描述设计模式的相关概念<br>如果想要更详细的描述可参看设计模式其他相关书籍或者资料</p><h1 id="6大设计原则"><a href="#6大设计原则" class="headerlink" title="6大设计原则"></a>6大设计原则</h1><h2 id="单一职责原则"><a href="#单一职责原则" class="headerlink" title="单一职责原则"></a>单一职责原则</h2><p>英文名称：Single Responsibiity Principle 简称：SRP<br>定义：在定义接口的时候，接口的功能要单一。<br>该原则素来有很多的争议，因为这个原则在实际开发过程中很难界定功能范围，所以需要根据实际情况使用，不要生搬硬套。</p><h2 id="里氏替换原则"><a href="#里氏替换原则" class="headerlink" title="里氏替换原则"></a>里氏替换原则</h2><p>英文名称：Liskov Substitution Principle 简称：LSP<br>通俗定义：只要父类能出现的地方子类就可以出现，而且替换为子类不会产生任何错误或异常<br>该原则主要为继承定义一个规范，子类尽量不要出现父类不存在的方法或属性</p><h2 id="依赖倒置原则"><a href="#依赖倒置原则" class="headerlink" title="依赖倒置原则"></a>依赖倒置原则</h2><p>英文名称：Dependence Inversion Principle 简称：DIP<br>通俗定义：通常依赖都是指的具体实现类的依赖和耦合，这里倒置就是要把依赖放到接口层。具体的实现类之间不存在依赖，实现类只是依赖他们的接口。<br>该原则就是经常谈到的面向接口编程</p><h2 id="接口隔离原则"><a href="#接口隔离原则" class="headerlink" title="接口隔离原则"></a>接口隔离原则</h2><p>英文名称：Interface Segregation Principle 简称：ISP<br>通俗定义：客户端不应该依赖它不需要的接口，一个类对另一个类的依赖应该建立在最小的接口上。<br>该原则规范了我们对外提供接口时的一个规范，对外提供接口时，只提供需要的接口。<br>比如：提供通过姓名查询用户信息的接口，就提供queryByName(String name),而不是提供一个通用query(String queryParam)，约定参数为{“name”:张三}这样的形式。</p><h2 id="迪米特法则"><a href="#迪米特法则" class="headerlink" title="迪米特法则"></a>迪米特法则</h2><p>英文名称：Law of Demeter 简称：LOD<br>或<br>英文名称：Least Knowledge Principle 简称：LKP<br>本人喜欢第二个描述。<br>通俗定义：一个类再调用其他类或者接口的时候应该对该类有最少的了解，只要知道该接口能实现什么功能即可，至于如何实现，以及过程都不需要关心。</p><h2 id="开闭原则"><a href="#开闭原则" class="headerlink" title="开闭原则"></a>开闭原则</h2><p>英文名称：Open Closed Principle 简称：OCP<br>通俗定义：一个接口，类，模块的定义应该对扩展开放，对修改关闭<br>该原则规范我们在开发过程中尽量通过扩展的方式来实现新的功能或者变化，而不是去修改原有逻辑或者接口</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;通过尽量少的语言描述设计模式的相关概念&lt;br&gt;如果想要更详细的描述可参看设计模式其他相关书籍或者资料&lt;/p&gt;
+&lt;h1 id=&quot;6大设计原则&quot;&gt;&lt;a href=&quot;#6大设计原则&quot; class=&quot;headerlink&quot; title=&quot;6大设计原则&quot;&gt;&lt;/a&gt;6大设计原则&lt;/h1
+      
+    
+    </summary>
+    
+      <category term="设计模式" scheme="http://wushuning.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+      <category term="设计模式" scheme="http://wushuning.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>子类与父类,向上转型与向下转型</title>
+    <link href="http://wushuning.com/2017/10/12/%E5%AD%90%E7%B1%BB%E4%B8%8E%E7%88%B6%E7%B1%BB-%E5%90%91%E4%B8%8A%E8%BD%AC%E5%9E%8B%E4%B8%8E%E5%90%91%E4%B8%8B%E8%BD%AC%E5%9E%8B/"/>
+    <id>http://wushuning.com/2017/10/12/子类与父类-向上转型与向下转型/</id>
+    <published>2017-10-11T16:00:00.000Z</published>
+    <updated>2018-10-18T15:38:31.741Z</updated>
+    
+    <content type="html"><![CDATA[<p>作者：本人<br>来源：原创</p><h1 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h1><p>向上转型：子类赋给父类<br>向下转型：父类赋给子类（必须是父引用本身已经指向子类对象的情况，并且要加子类强制转换，否则报错）</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Super</span> </span>&#123;</span><br><span class="line">  <span class="keyword">public</span> name = <span class="string">"父类"</span>;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">MyName</span><span class="params">()</span></span>&#123;</span><br><span class="line">    System.out.println(<span class="string">"名字："</span>+name);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Sub</span> <span class="keyword">extends</span> <span class="title">Super</span></span>&#123;</span><br><span class="line">  <span class="keyword">public</span> name = <span class="string">"子类"</span>;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">MyName</span><span class="params">()</span></span>&#123;</span><br><span class="line">    System.out.println(<span class="string">"名字："</span>+name);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> Class Test&#123;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span>&#123;</span><br><span class="line">    Super <span class="keyword">super</span> = <span class="keyword">new</span> Sub();<span class="comment">//向上转型</span></span><br><span class="line">    Sub sub  = (Sub)<span class="keyword">super</span>;<span class="comment">//向下转型，且super指向子类对象</span></span><br><span class="line">    <span class="comment">//注属性不会覆写，super是父类型引用所以指向的属性是父类型属性</span></span><br><span class="line">    <span class="keyword">super</span>.MyName();<span class="comment">//输出：名字：父类</span></span><br><span class="line">    sub.MyName();<span class="comment">//输出：名字：子类</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//super_1指向的是父类型，强制转换的时候出错</span></span><br><span class="line">    Super super_1 = <span class="keyword">new</span> Super();</span><br><span class="line">    Sub sub_1 = (Sub)super_1;<span class="comment">//编译错误，ClassCaseException</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;作者：本人&lt;br&gt;来源：原创&lt;/p&gt;
+&lt;h1 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h1&gt;&lt;p&gt;向上转型：子类赋给父类&lt;br&gt;向下转型：父类赋给子类（必须是父引用本身已经指向子类对象的情况，并
+      
+    
+    </summary>
+    
+      <category term="java" scheme="http://wushuning.com/categories/java/"/>
+    
+    
+      <category term="java" scheme="http://wushuning.com/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一个程序员跑了几千公里到戈壁徒步70KM完--感悟</title>
+    <link href="http://wushuning.com/2017/10/10/%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F%E5%91%98%E8%B7%91%E4%BA%86%E5%87%A0%E5%8D%83%E5%85%AC%E9%87%8C%E5%88%B0%E6%88%88%E5%A3%81%E5%BE%92%E6%AD%A570KM-%E5%AE%8C/"/>
+    <id>http://wushuning.com/2017/10/10/一个程序员跑了几千公里到戈壁徒步70KM-完/</id>
+    <published>2017-10-09T16:00:00.000Z</published>
+    <updated>2018-10-18T15:23:58.759Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>从五月份的医疗行业沙漠徒步挑战赛到10.1的戈壁挑战赛<br>跟随一个初创团队，感受创业过程感悟颇多<br>作为组委会裁判，IT中心负责人，中控台操盘手…<br>很遗憾，以后应该不会再继续参与了，具体原因不想缀述。<br>到可以用一个小寓言表达：一个水桶能装多少水是由最短那跟木板决定的。</p><p>创业真的需要：一个灵魂人物+靠谱的团队+能力的均等<br>创业不是救助，没人可怜你，没人教你，所有东西都要自己悟。创业也不是小孩过家家，专业是唯一标准<br>也多少明白了华为事件：“辞退你与能力无关”。</p><h1 id="感悟-态度"><a href="#感悟-态度" class="headerlink" title="感悟-态度"></a>感悟-态度</h1><p>态度是，一个靠谱的人永远比一个有能力缺不靠谱的人受欢迎。</p><h1 id="感悟-情商"><a href="#感悟-情商" class="headerlink" title="感悟-情商"></a>感悟-情商</h1><p>听很重要，听别人说了什么，听别人没说什么，听自己想说什么，听自己说正确了多少。<br>说很重要，说要看场合，看人，看场景，要思而后说，很多人讲话不经过大脑。<br>悟很重要，交流是一门艺术，多思多想多悟，想不明白就闭嘴少说话。言多必失。</p><h1 id="感悟-信仰"><a href="#感悟-信仰" class="headerlink" title="感悟-信仰"></a>感悟-信仰</h1><p>很多人都说中国人没有信仰，不能全否定，但至少绝大多数是没有的<br>人一定要有信仰，信仰决定你对人生的态度，决定你的朋友圈，以及你的家庭<br>人要有自己坚持的东西。</p><h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>要加入比自己优秀的圈子，这样你才能更优秀，至少不能比自己差<br>要加入比自己聪明的圈子，这样你能更聪明，至少不能比自己笨<br>要加入与自己情商匹配或更高的圈子，与这些人共事是一种享受<br>当你发现自己开始于身边的人格格不入的时候就要好好想想，是自己退步了，还是已经超越了大部分人<br>如果是前者毫无疑问赶紧追上，如果是后者，则需要考虑继续往上一个阶层，或者换个环境。比你优秀的人<br>很多，要善于发现，不要在比你差的人身上耗费太多精力，否则你只会跟他一样。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h1&gt;&lt;p&gt;从五月份的医疗行业沙漠徒步挑战赛到10.1的戈壁挑战赛&lt;br&gt;跟随一个初创团队，感受创业过程感悟颇多&lt;br&gt;作为组委会裁判，IT中心负责人，
+      
+    
+    </summary>
+    
+      <category term="人生" scheme="http://wushuning.com/categories/%E4%BA%BA%E7%94%9F/"/>
+    
+    
+      <category term="人生" scheme="http://wushuning.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一个程序员跑了几千公里到戈壁徒步70KM</title>
+    <link href="http://wushuning.com/2017/10/04/%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F%E5%91%98%E8%B7%91%E4%BA%86%E5%87%A0%E5%8D%83%E5%85%AC%E9%87%8C%E5%88%B0%E6%88%88%E5%A3%81%E5%BE%92%E6%AD%A570KM/"/>
+    <id>http://wushuning.com/2017/10/04/一个程序员跑了几千公里到戈壁徒步70KM/</id>
+    <published>2017-10-03T16:00:00.000Z</published>
+    <updated>2018-10-18T15:13:47.873Z</updated>
+    
+    <content type="html"><![CDATA[<p>10月5日-10月7日，三天70+km徒步，敦煌，戈壁。从北京-到敦煌</p><p>这一串描述很难跟一个程序员想到一起，有时候自己想来也很疯狂。</p><p>慢慢的发现自己有些改变，不太发微信状态，不发微博，不看qq</p><p>更多的是看看书，看看新闻，看看网上分享的技术文档，上知乎，csdn回答一些技术问题</p><p>闲暇时间开始重新写一写东西。</p><p>生活中开始参与非IT相关的领域的活动</p><p>本人并非什么技术狂人，也不是编程技术的狂热爱好者，工作久了，也尝试拓宽自己的视角，接触不一样的人，不一样的事。</p><p>久了，也懂得了很多，比如情怀这个东西，我们知道锤子一直在玩情怀，我们提到锤子也总在说情怀，可是你懂情怀是什么吗？用情怀是一种什么感受？其实很遥远。</p><p>但是当你身边出现这么一群人，因为情怀，因为梦想去做一件事情的时候，这种感觉是没法形容的。很幸运我碰到了这么一位。也有幸参与其中一部分。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;10月5日-10月7日，三天70+km徒步，敦煌，戈壁。从北京-到敦煌&lt;/p&gt;
+&lt;p&gt;这一串描述很难跟一个程序员想到一起，有时候自己想来也很疯狂。&lt;/p&gt;
+&lt;p&gt;慢慢的发现自己有些改变，不太发微信状态，不发微博，不看qq&lt;/p&gt;
+&lt;p&gt;更多的是看看书，看看新闻，看看网上分享
+      
+    
+    </summary>
+    
+      <category term="人生" scheme="http://wushuning.com/categories/%E4%BA%BA%E7%94%9F/"/>
+    
+    
+      <category term="人生" scheme="http://wushuning.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mac中JDK安装配置</title>
+    <link href="http://wushuning.com/2017/09/24/mac%E4%B8%ADJDK%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
+    <id>http://wushuning.com/2017/09/24/mac中JDK安装配置/</id>
+    <published>2017-09-23T16:00:00.000Z</published>
+    <updated>2018-10-18T15:29:08.469Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="系统内置JDK"><a href="#系统内置JDK" class="headerlink" title="系统内置JDK"></a>系统内置JDK</h2><p>mac默认自带一个jdk6</p><h2 id="自定义安装JDK"><a href="#自定义安装JDK" class="headerlink" title="自定义安装JDK"></a>自定义安装JDK</h2><p>从oracle下载jdk安装后<br>默认安装路径如下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home</span><br></pre></td></tr></table></figure></p><p>并且系统内置的jdk会默认为最新安装的</p><h2 id="环境变量配置"><a href="#环境变量配置" class="headerlink" title="环境变量配置"></a>环境变量配置</h2><p>vi .bash_profile<br>输入：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home</span><br><span class="line">export CLASSPAHT=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar</span><br><span class="line">export PATH=$JAVA_HOME/bin:$PATH:</span><br><span class="line">export PATH</span><br></pre></td></tr></table></figure></p><h2 id="删除已经安装的jdk"><a href="#删除已经安装的jdk" class="headerlink" title="删除已经安装的jdk"></a>删除已经安装的jdk</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo rm -rf jdk1.8.0_101.jdk</span><br></pre></td></tr></table></figure><p>可以进入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/libexec</span><br><span class="line">java_home -V</span><br></pre></td></tr></table></figure></p><p>查看所有jdk的路径<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;系统内置JDK&quot;&gt;&lt;a href=&quot;#系统内置JDK&quot; class=&quot;headerlink&quot; title=&quot;系统内置JDK&quot;&gt;&lt;/a&gt;系统内置JDK&lt;/h2&gt;&lt;p&gt;mac默认自带一个jdk6&lt;/p&gt;
+&lt;h2 id=&quot;自定义安装JDK&quot;&gt;&lt;a href=&quot;#自定义安
+      
+    
+    </summary>
+    
+      <category term="java" scheme="http://wushuning.com/categories/java/"/>
+    
+    
+      <category term="mac" scheme="http://wushuning.com/tags/mac/"/>
+    
+      <category term="java" scheme="http://wushuning.com/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mac中配置eclipse启动使用的jdk，eclipse.ini文件</title>
+    <link href="http://wushuning.com/2017/09/24/mac%E4%B8%AD%E9%85%8D%E7%BD%AEeclipse%E5%90%AF%E5%8A%A8%E4%BD%BF%E7%94%A8%E7%9A%84jdk%EF%BC%8Ceclipse-ini%E6%96%87%E4%BB%B6/"/>
+    <id>http://wushuning.com/2017/09/24/mac中配置eclipse启动使用的jdk，eclipse-ini文件/</id>
+    <published>2017-09-23T16:00:00.000Z</published>
+    <updated>2018-10-18T15:31:24.816Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="设置eclipse使用的jdk"><a href="#设置eclipse使用的jdk" class="headerlink" title="设置eclipse使用的jdk"></a>设置eclipse使用的jdk</h2><ul><li>application中找到eclipse右键show content找到eclipse的配置文件eclipse.ini</li><li>增加配置如下  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">-vm</span><br><span class="line">/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home</span><br></pre></td></tr></table></figure></li></ul><p>其中jdk的路径可以通过命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/libexec/java_home -V</span><br></pre></td></tr></table></figure></p><p>最后是大写的V查看</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;设置eclipse使用的jdk&quot;&gt;&lt;a href=&quot;#设置eclipse使用的jdk&quot; class=&quot;headerlink&quot; title=&quot;设置eclipse使用的jdk&quot;&gt;&lt;/a&gt;设置eclipse使用的jdk&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;application中
+      
+    
+    </summary>
+    
+      <category term="eclipse" scheme="http://wushuning.com/categories/eclipse/"/>
+    
+    
+      <category term="eclipse" scheme="http://wushuning.com/tags/eclipse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>校招是怎样一种体验，应届程序员如何准备校招？</title>
+    <link href="http://wushuning.com/2017/09/19/%E6%A0%A1%E6%8B%9B%E6%98%AF%E6%80%8E%E6%A0%B7%E4%B8%80%E7%A7%8D%E4%BD%93%E9%AA%8C%EF%BC%8C%E5%BA%94%E5%B1%8A%E7%A8%8B%E5%BA%8F%E5%91%98%E5%A6%82%E4%BD%95%E5%87%86%E5%A4%87%E6%A0%A1%E6%8B%9B/"/>
+    <id>http://wushuning.com/2017/09/19/校招是怎样一种体验，应届程序员如何准备校招/</id>
+    <published>2017-09-18T16:00:00.000Z</published>
+    <updated>2018-10-18T15:13:55.089Z</updated>
+    
+    <content type="html"><![CDATA[<p>很久没写东西，也很久没整理，难得有时间清闲一下，坐下来记录一下最近的经历。</p><p>9月是开学季，也是校园招聘开始的季节，这次公司的校招比较提前，以往都是到了10月份才来，领导商量决定早点来以免被别的公司刷了一轮，剩下的都是质量不太好的。想想也有一定的道理。</p><p>这次被集团选为面试官，去山东，山西两站，社招面了很多，校招还是头次，多少有些期待。</p><p>写下这些文字的时候已是结束了山东，正在山西境内。山东大学的学生整体还是不错的，人都比较低调，少有特别个性的，最终发了不少offer，本人也遇到一个比较满意的想招到自己部门的学生，更巧的是还是老乡。但是遗憾的是没有遇到特别优秀让人特别兴奋的学生，唯一想要给高潜的就是这位老乡（此处没有个人感情色彩）。</p><p>从面试官的角度看。对于面试的同学还真是有些建议<br>1，首先就是准备，现在的学生极个别的会去准备一些面试经验，其他的就是看缘分，虽然面试问的题目很多都有面经，有的学生也不屑去看，认为只要真实表达自己就可以了，这个其实是错误的，一些基础的东西久了没用可能会忘记，时不时的还是要复习一下，就像到现在本人闲着没事还会去看看java基础类型，java各种集合类的集成关系，源码，各类讲解多线程的文章。而且现在资料好找看起来很方便。</p><p>2，准备痕迹过于浓厚，有些同学确实准备了，但是为了面试而面试，而且非常实在的说自己就是刷题，这真的是无语，你那么诚实的告诉我了，我就只能诚实的让你不过了。</p><p>3，说话的艺术，平时说的少，面试的时候密集的沟通交流，很多学生就有点慌，害怕冷场就一个劲的说，问题刚问完就接着回答，也不多想，讲了很多一句重点都没有，这个其实是很吃亏的，说多错多这句真理不信不行。</p><p>4，简历，这个是真的要花很多心思准备，对于应届生来讲，本身没有太多的项目经验，而面试官能了解这个人的第一印象就是简历，从简历上看出你这个人在学校学习怎样，是不是一个会主动动手写代码的人，是不是一个会主动接触新技术的人。有人会疑问，很多东西我只是看了一些但是完全没用过或者没写过可以写吗。我的回答是当然可以，这要看你的写法，你要写精通，那准备死就行了，你要写熟悉，可能也会被问死，但是你可以说自己正在研究哪一个方向，正在看哪一些技术栈等等。这样至少能看出你的兴趣点和规划。</p><p>5，自我介绍，不知道现在是不流行自我介绍了吗？还是不关注，大部分人就三句话，我是谁，哪个学院，本科还是硕士，多一点的就是主要学的课程，再多一点就是做了一些什么项目。其实我觉得这个还是要多准备一下，至少要30s吧，其实这个过程是给面试官再详细看一下你的建立，也避免冷场吧。既然是技术，可以多介绍一下自己的技术特长，爱好的方向，平时喜欢做点什么研究等等。至少不要让人感觉你什么也没准备。</p><p>6，关于项目，面试中本人比较喜欢问简历上做过的项目，至于为什么这里讲一下，如果简历上没有什么项目，或者描述极其简单，那么自然就是去问一些java底层实现，说实话，java知识体系如此庞大，运气不好问的问题一个答不上。如果有项目经历的话很多时候都会聊项目怎么实现，做了什么功能，用了什么技术栈，遇到什么问题，如何解决的等等，只要稍微准备一下就能很好回答。有人就说了假如没有项目经历怎么办，这个时候我只想说难道你在大学就从来没有做过学生管理系统。。。。。（对不起这是个冷笑话）</p><p>7，关于项目，一定要描述清楚项目的功能，以及你做的功能，还有就是用到了什么技术栈。同时对于项目要充分准备。有的同学被问到项目的时候回答很随意：其实即使做了一些的crud，没有太复杂。我只想说既然啥都没有你写上干嘛，你自己都瞧不上难道要我觉得你的项目很厉害。</p><p>8，穿着，不知道是不是大环境就是这样，大家都不注意自己的穿着，这里讲的不是西装领带，你这样穿反而不好，而是干净整洁并且要像一个工作者，平时怎么穿面试怎么穿多少有点随意，至少要发型整洁，上衣素净，长裤，皮鞋或者稍微正式的休闲鞋。至少不要印花T恤短裤，休闲网鞋，搭配上也合理。程序员毕竟不是屌丝，虽然很多人都自嘲屌丝程序员，那都是无能的无奈，程序员，高端技术人士，不管别人怎么看我们的职业，至少我们自己要尊重。</p><p>零零洒洒写了这么多，这次来感触很深，本人不太爱说话，尤其是人多的时候，多半一个人带着，不断的回想与每一个人的交谈，也在发觉自己的不足，也希望这些文字能被一些同学看到，多少有些帮助吧。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;很久没写东西，也很久没整理，难得有时间清闲一下，坐下来记录一下最近的经历。&lt;/p&gt;
+&lt;p&gt;9月是开学季，也是校园招聘开始的季节，这次公司的校招比较提前，以往都是到了10月份才来，领导商量决定早点来以免被别的公司刷了一轮，剩下的都是质量不太好的。想想也有一定的道理。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="人生" scheme="http://wushuning.com/categories/%E4%BA%BA%E7%94%9F/"/>
+    
+    
+      <category term="人生" scheme="http://wushuning.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>跟谁一起工作，到底有多重要？</title>
+    <link href="http://wushuning.com/2017/02/23/%E8%B7%9F%E8%B0%81%E4%B8%80%E8%B5%B7%E5%B7%A5%E4%BD%9C%E5%88%B0%E5%BA%95%E6%9C%89%E5%A4%9A%E9%87%8D%E8%A6%81/"/>
+    <id>http://wushuning.com/2017/02/23/跟谁一起工作到底有多重要/</id>
+    <published>2017-02-22T16:00:00.000Z</published>
+    <updated>2018-10-18T15:24:15.125Z</updated>
+    
+    <content type="html"><![CDATA[<p>作者：孙圈圈<br>来源：圈外（iquanwai）</p><p>《浪潮之巅》的作者吴军，在《得到》专栏里，提及了 Google 刚进中国时候的一件事。刚开始，Google 总部对中国研发团队的评价非常低，因为“出工不出活儿”，北京的三四个工程师都抵不上 Google 总部的一个工程师。</p><p>后来吴军帮忙分析了原因，他发现，那些工程师都不善于找到最重要的工作并优先完成它们。中国研发团队里，所有的工程师都是新人，没有人告诉他们该如何工作，而在 Google 总部，新员工只是一小部分，所以很容易在有经验的员工带动下快速掌握工作技能。</p><p>之后两年，Google 总部的工程师陆续来中国帮助团队梳理工作方式，而中国团队也会去 Google 总部交流，这种情况就得到了改善，中国研发团队也最终得到了总部的认可。</p><p>Google 工程师这么聪明的一群人，尚且需要学习正确的工作方式，才能有效产出，何况大多数人？</p><p>我们一直都认为，如果一个人智商情商正常、学习和工作意愿高，就一定能出成绩。</p><p>然而，我带过很多人，也招过很多人，却发现一个奇怪的现象：有一些人，十分有意愿学习，非常努力，智商情商也都正常，然而工作产出却非常低，甚至不如很多资质低于他们的人。</p><p>我一直百思不得其解，一度怀疑自己看人不准。直到前阵子看到吴军的这段叙述，才幡然醒悟，仔细回想了这些人的工作方式，将他们与产出高的人相比，发现他们无一例外都存在这三个问题：</p><p>问题 1：只关注任务，不关注目标</p><p>假如你的老板正在飞机上，还有 1 小时落地，下来之后需要给客户做一个重要汇报，而你需要给他做一份 PPT。但因为你错估了时间，导致 PPT 草草做完，而且发现其中一些数据没有，你怎么办？</p><p>低效人士的做法是：疯狂地找数据，最后可能数据有了，然而 PPT 没有来得及做完，或者质量不高。</p><p>一般人的做法是：找人帮自己一起找数据。</p><p>而最高效的那些人，会根据老板此次汇报的目的，判断这些数据在其中的作用大小，如果作用不大，那么就把时间花在完善重要页数、而不是找数据上，如果很关键，那么就找其他人帮忙，或者找一些替代数据。</p><p>这三类人之间的差距，其实就是任务导向与目标导向的差距。</p><p>我此前的咨询公司，在做高潜人才研究的时候，有个发现：高潜力的人才是有共性的，具备这些共性的人，几乎做什么都能做好，而不具备的，几乎做任何工作都会障碍重重。</p><p>这其中，有一项共性就是 Result-driven （结果驱动）。那些高产出的人，未必动作更快，而是更善于判断，什么事情对结果是最有效的，然后，用尽一切办法保证结果达成，而不是死守着原有的工作任务。</p><p>实际上，结果驱动不仅仅是一种工作习惯，更是一种思维方式。这种以终为始的思维模式，是我自己刻意训练的最有用的思维模式之一。</p><p>比如思维训练营里，有学员问我：如何让自己对一个行业有真知灼见？</p><p>想想看，如果是你，会如何回答？</p><p>我的回答方式，是反问她：具备真知灼见的目的是什么呢？是想让客户更加信任你、还是想让老板看到你的进步？</p><p>假设你是希望客户信任你，觉得你懂他，那你要做的，就是看这个行业里的客户有什么痛点，然后针对这几个痛点，下功夫研究和分析，有更多洞见，然后借机沟通出去。了解一个行业，是一个太大的话题，没有目标，根本无从下手。</p><p>所以，没有结果驱动的思维，而仅仅死守着工作任务，最终就是，出工不出活儿。</p><p>问题 2：应激式工作，而非统筹式工作</p><p>如果你观察周围的同事，会发现，整天风风火火、急得上蹿下跳、各种任务来回切换的人，有时候产出并不高。看他们工作，就好像打地鼠一样，打完一个，另一个又冒上来，连看的人都跟着焦虑起来。</p><p>而另一类人，他们做事专注、条理清晰、看起来很淡定，但最后，多困难的事儿都默默搞定了。</p><p>两者的差别就在于，第一类人总是应激式工作。他们每天起来的第一件事，不是规划当天的工作，而是马上投入工作，以至于到了下班之后，发现还有很多事情没做完，而没做完的，可能又是最重要的。</p><p>另外，领导临时给个任务、客户临时有个要求、同事临时要个数据，他们都会停下手里的事情，去忙这些，最终，在任务的切换上花费了巨大的精力。</p><p>我跟公司的运营打过一个比方：假设你每项工作任务平均半小时可以做完，而任务之间的切换通常也要半小时，如果你经常一项不做完就切换到下一项，就算每个任务中途切换一次吧，那就意味着，8 小时的工作时间，你至少有 4 小时都花在任务切换上了。</p><p>这种应激式工作方式无疑是低效的，那什么才是高效的呢？统筹式工作。</p><p>真正的统筹式工作，有几个特征：</p><p>● 特征一，有计划地工作。</p><p>我通常周日晚上就会排好下周每天的工作，而每天早上会排好当天的工作。而且，任务清单在工作的时候一直开着、实时更新，完成一项删掉一项，临时增加一项就插入相应的时间段，当天完不成的、非紧急的任务，我就改成第二天的日期。</p><p>这种方式，会让自己很有掌控感，多少事情来了，都不会乱了阵脚。</p><p>当然，在做计划的时候，你需要为高价值问题分配最多专门的时间。我此前特地写过一篇文章，就提到，大部分人在 80% 的时间里都是做无用功，根本原因就是没搞清楚真正要解决的问题。</p><p>● 特征二，形成自己固定的时间习惯。</p><p>比如我的习惯是，在上午做需要烧脑的事情、在交通工具上听书、在饭后效率不高的时候集中回复微信消息和留言、在等人的时候构思下篇文章主题、在疲劳的时候刷一下公众号、在傍晚的时候跟团队开会、在晚上做一个简单总结。</p><p>这种习惯，一方面把不同难度的工作跟自己的效率波峰波谷相匹配，达到效率最大化；另一方面，我会清楚地知道，5 分钟、10 分钟、30 分钟，对我来说分别可以干什么，这样就不会一有碎片时间，就习惯性地刷朋友圈了。</p><p>● 特征三，及时记录、每天总结。</p><p>当你正在工作的时候，老板布置了一个任务、客户又来了一个问题，你会如何呢？很多人就直接扑到临时任务上去了，但真正好的做法是，如果不是十万火急，你可以快速用关键词记在笔记本上，不需要任何思考，然后马上回到刚才的任务，做完再看笔记本。</p><p>另外，你在一天当中，学到了什么、犯了什么错误，当时也要记下来，因为过了那个时候，你很快就会忘，然后继续犯这个错误。当然，这些记录，晚上都需要进行整理。</p><p>我曾说过，此前 8 年多的顾问生涯里，成长最快的那半年，我每天都坚持写工作日记。</p><p>另外，记录还有一个好处，就是可以减轻大脑负担。每天的例行工作、自己常犯的错误，这些都可以列清单。你的大脑是用来思考的，是很宝贵的，别把一支笔就可以做的事情，强加给你的大脑来做。</p><p>问题 3：几乎从不“偷懒”</p><p>“懒癌”是第一生产力。仔细盘点一下，我们哪样创新不是因为懒呢？不想走路，有了汽车；不想爬楼，有了电梯；不想打扫，有了扫地机器人……</p><p>工作中的大部分事情，并不是一次性的，而是持续的，那么就可以在第一次做的时候，搭好框架。</p><p>比如，我让运营每周做一次数据分析，这个事情是重复性的，所以高效的做法是：</p><p>建一张 excel 表格，把固定需要分析的参数都做好公式，每周只需要把导出来的源数据贴进去，刷新之后参数就出来，然后只需要看参数来得出结论。</p><p>当然，这里所说的偷懒，不仅是善用工具，还包括善用他人。</p><p>比如，你从来没做过数据分析，那么就先去找找前人怎么做的；比如，你有自己的团队或者实习生，那就不要做任何他们就可以做的事情；再比如，去运营社群，摸索出一套群主激励机制，比你自己去做群主，要高效得多。</p><p>所以，这三个让你 Work Smart 的工作方式，听起来难吗？一点也不，而且你很可能也听说过。但是，为什么很多人做不到呢？我观察下来，有几个障碍：</p><p>● 障碍 1：工作环境所限。</p><p>很多人的工作性质，就不是结果导向型的，而是任务导向型的。他的工作岗位要求他做的，就是完成任务，至于背后的出发点，不需要知道。而且，领导有可能就是考核努力、考核苦劳，而不是考核产出。</p><p>实际上，工作性质对一个人的思维方式、行为习惯的影响，大到超乎想象。</p><p>你去看，刚毕业的时候，一个学校一个专业的同学，看起来差不多，但过了几年，你会发现，只要接触一个人几分钟，听他说几句话，就能大致判断出他的职业。</p><p>再极端一些的，多年前我曾经因为要帮客户设计流程，去他们的产线观察生产过程，在噪音极大、灯光昏暗的厂房里，我看着流水线工人机械地盯着机器、等待换箱，几个小时下来，我自己也开始反应迟钝、敏锐度下降了。</p><p>● 障碍 2：没有资深的人辅导。</p><p>从开头的案例可以看出，Google 工程师那么优秀的一群人，在从校园进入公司之后，也需要有经验的人辅导。</p><p>但很多公司并不像 Google 那样，重视对新人工作方式的培养，将 Work Smart 提到非常高的位置。</p><p>他们往往只重视教员工 What （需要做哪些事情、用什么工具等等），却没有 How （如何聪明地做这些事情）和 Why （这些事情对公司、对客户有什么帮助、要达到何种目的），导致员工的聪明才干发挥不出来，没有成就感。</p><p>● 障碍 3：思维方式固化。</p><p>一部分人，会在工作多年之后，发现工作性质和工作环境的负面影响，醒悟过来想要改变。</p><p>然而，从学校踏入社会的这几年，是思维和工作方式形成的关键几年，如果任务导向、应激式努力、闷头蛮干的工作方式在大脑中固化了，形成了下意识思维，是很难扭转过来的。</p><p>我带过几个人，此前的工作经历都是任务式、应激式的，在跟他们合作的时候，的确能够感受到他们与自己固有思维作斗争的痛苦与挣扎，然而，并不是每个人最终都能挣扎出来、突破自我的。</p><p>所以，年轻时候的工作选择，你选择的不只是一份工作，而是一种思维习惯、工作方式、价值观甚至生活方式。</p><p>在初入职场的几年，处于何种工作环境、跟谁一起工作、被谁辅导工作，足以影响你的下半辈子。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;作者：孙圈圈&lt;br&gt;来源：圈外（iquanwai）&lt;/p&gt;
+&lt;p&gt;《浪潮之巅》的作者吴军，在《得到》专栏里，提及了 Google 刚进中国时候的一件事。刚开始，Google 总部对中国研发团队的评价非常低，因为“出工不出活儿”，北京的三四个工程师都抵不上 Google 总部
+      
+    
+    </summary>
+    
+      <category term="人生" scheme="http://wushuning.com/categories/%E4%BA%BA%E7%94%9F/"/>
+    
+    
+      <category term="人生" scheme="http://wushuning.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mac中配置环境变量</title>
+    <link href="http://wushuning.com/2016/12/06/mac%E4%B8%AD%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/"/>
+    <id>http://wushuning.com/2016/12/06/mac中配置环境变量/</id>
+    <published>2016-12-05T16:00:00.000Z</published>
+    <updated>2018-10-18T15:33:27.413Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="mac修改环境变量"><a href="#mac修改环境变量" class="headerlink" title="mac修改环境变量"></a>mac修改环境变量</h2><h3 id="修改当前用户环境变量"><a href="#修改当前用户环境变量" class="headerlink" title="修改当前用户环境变量"></a>修改当前用户环境变量</h3><p>以配置tomcat为例</p><p>打开终端：输入如下指令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wangzhikuiMacBook-Pro:~ wangzhikui$ vi .bash_profile</span><br></pre></td></tr></table></figure><p>编辑.bash_prifile文件</p><p>在英文输入下按i ，进入编辑状态输入如下</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">export PATH=/Users/wangzhikui/develop/tomcat8.0.39/bin:$PATH:</span><br><span class="line">export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home</span><br><span class="line">export CLASSPAHT=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar</span><br><span class="line">export PATH=$JAVA_HOME/bin:$PATH:</span><br><span class="line">export PATH=/usr/local/mysql/bin:$PATH:</span><br><span class="line">export M2_HOME=/Users/wangzhikui/develop/apache-maven-3.3.9</span><br><span class="line">export PATH=$M2_HOME/bin:$PATH:</span><br><span class="line">export PATH=/Applications/Sublime\ Text.app/Contents/SharedSupport/bin:$PATH:</span><br><span class="line">export PATH</span><br><span class="line">~                                                                               </span><br><span class="line">~                                                                               </span><br><span class="line">~                                                                               </span><br><span class="line">~                                                                               </span><br><span class="line">~                                                                               </span><br><span class="line">~                                                                                                                                                             </span><br><span class="line">&quot;.bash_profile&quot; 9L, 465C</span><br></pre></td></tr></table></figure><p>按esc键后</p><p>输入 :wq</p><p>保存退出</p><p>配置完后退出终端再打开即可在终端中直接输入tomcat的启动，停止命令</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;mac修改环境变量&quot;&gt;&lt;a href=&quot;#mac修改环境变量&quot; class=&quot;headerlink&quot; title=&quot;mac修改环境变量&quot;&gt;&lt;/a&gt;mac修改环境变量&lt;/h2&gt;&lt;h3 id=&quot;修改当前用户环境变量&quot;&gt;&lt;a href=&quot;#修改当前用户环境变量&quot; cla
+      
+    
+    </summary>
+    
+      <category term="mac" scheme="http://wushuning.com/categories/mac/"/>
+    
+    
+      <category term="mac" scheme="http://wushuning.com/tags/mac/"/>
+    
+  </entry>
+  
+  <entry>
     <title>个人日常网址</title>
     <link href="http://wushuning.com/2016/01/01/%E4%B8%AA%E4%BA%BA%E5%B8%B8%E7%94%A8%E7%BD%91%E5%9D%80/"/>
     <id>http://wushuning.com/2016/01/01/个人常用网址/</id>
     <published>2015-12-31T16:00:00.000Z</published>
-    <updated>2018-10-18T11:21:35.025Z</updated>
+    <updated>2018-10-18T12:05:08.329Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h2><p><a href="https://koajs.com/" target="_blank" rel="noopener">koa</a></p><p><a href="https://koa.bootcss.com/" target="_blank" rel="noopener">koa中文</a></p><p><a href="https://eggjs.org/zh-cn/intro/index.html" target="_blank" rel="noopener">阿里egg</a></p><p><a href="https://cn.vuejs.org/" target="_blank" rel="noopener">vue</a></p><p><a href="https://reactjs.org/" target="_blank" rel="noopener">react</a></p><p><a href="http://www.angularjs.net.cn/" target="_blank" rel="noopener">angular</a></p><p><a href="https://risingstars.js.org/2017/en/" target="_blank" rel="noopener">2017 github starts</a></p><p><a href="http://nodejs.cn/" target="_blank" rel="noopener">nodejs</a></p><p><a href="http://www.alloyteam.com/nav/" target="_blank" rel="noopener">web前端导航</a></p><p><a href="https://hexo.io/zh-cn" target="_blank" rel="noopener">hexo中文</a></p><h2 id="后端"><a href="#后端" class="headerlink" title="后端"></a>后端</h2><p><a href="http://www.importnew.com/" target="_blank" rel="noopener">importnew</a></p><p><a href="http://www.iocoder.cn/?vip" target="_blank" rel="noopener">后端源码</a></p><p><a href="https://www.docker.com/" target="_blank" rel="noopener">docker</a></p><h2 id="社区"><a href="#社区" class="headerlink" title="社区"></a>社区</h2><p><a href="http://www.gitbook.com/" target="_blank" rel="noopener">gitbook</a></p><p><a href="http://github.com/" target="_blank" rel="noopener">github</a></p><p><a href="https://juejin.im" target="_blank" rel="noopener">掘金</a></p><p><a href="https://www.oschina.net/" target="_blank" rel="noopener">开源中国</a></p><p><a href="https://www.ibm.com/cn-zh/" target="_blank" rel="noopener">ibm</a></p><p><a href="https://segmentfault.com/" target="_blank" rel="noopener">segmentfault</a></p><p><a href="http://www.infoq.com/" target="_blank" rel="noopener">infoq</a></p><p><a href="https://www.geekbang.org/" target="_blank" rel="noopener">极客帮</a></p><p><a href="http://www.iteye.com" target="_blank" rel="noopener">iTeye</a></p><p><a href="http://www.csdn.net/" target="_blank" rel="noopener">CSDN</a></p><p><a href="http://www.zhihu.com" target="_blank" rel="noopener">知乎</a></p><p><a href="http://stackoverflow.com/" target="_blank" rel="noopener">stackoverflow</a></p><p><a href="http://www.verycd.com/" target="_blank" rel="noopener">verycd</a></p><p><a href="http://weibo.com/" target="_blank" rel="noopener">微博</a></p><p><a href="https://www.douban.com" target="_blank" rel="noopener">豆瓣</a></p><p><a href="http://www.niaogebiji.com/" target="_blank" rel="noopener">鸟哥笔记</a></p><p><a href="http://www.newrank.com" target="_blank" rel="noopener">新榜</a></p><p><a href="http://www.woshipm.com/" target="_blank" rel="noopener">人人都是产品经理</a></p><p><a href="https://developer.apple.com/" target="_blank" rel="noopener">develper-apple</a></p><p><a href="http://www.cocoachina.com" target="_blank" rel="noopener">cocoachina</a></p><p><a href="https://swift.org/" target="_blank" rel="noopener">swift</a></p><h2 id="可视化"><a href="#可视化" class="headerlink" title="可视化"></a>可视化</h2><p><a href="https://datav.aliyun.com" target="_blank" rel="noopener">datav</a></p><p><a href="https://bigdata.163yun.com/youdata" target="_blank" rel="noopener">网易有数</a></p><p><a href="https://sugar.baidu.com/home" target="_blank" rel="noopener">百度sugar</a></p><p><a href="https://www.tableau.com/zh-cn" target="_blank" rel="noopener">tableau</a></p><h2 id="个人博客"><a href="#个人博客" class="headerlink" title="个人博客"></a>个人博客</h2><p><a href="https://www.liaoxuefeng.com/" target="_blank" rel="noopener">廖雪峰</a></p><p><a href="http://www.ruanyifeng.com/" target="_blank" rel="noopener">阮一峰</a></p><h2 id="线上教学"><a href="#线上教学" class="headerlink" title="线上教学"></a>线上教学</h2><p><a href="https://www.imooc.com/" target="_blank" rel="noopener">慕课</a></p><p><a href="https://open.163.com/" target="_blank" rel="noopener">网易公开课</a></p><p><a href="http://www.itcast.cn/" target="_blank" rel="noopener">传智播客</a></p><p><a href="http://www.langsin.com/" target="_blank" rel="noopener">浪曦网</a></p><p><a href="http://bbs.langsin.com/" target="_blank" rel="noopener">浪曦在线</a></p><p><a href="http://wiki.jikexueyuan.com" target="_blank" rel="noopener">极客学院</a></p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p><a href="https://www.amazon.cn" target="_blank" rel="noopener">亚马逊</a></p><p><a href="http://www.jd.com" target="_blank" rel="noopener">京东</a></p><p><a href="http://www.12306.cn/" target="_blank" rel="noopener">12306</a></p><p><a href="http://readfree.me/" target="_blank" rel="noopener">readfree</a></p><p><a href="http://www.baidu.com" target="_blank" rel="noopener">百度</a></p><p><a href="http://www.xiaopian.com/" target="_blank" rel="noopener">小调网</a></p><p><a href="http://www.iqiyi.com/" target="_blank" rel="noopener">爱奇艺</a></p><p><a href="http://www.aiyuke.com" target="_blank" rel="noopener">爱羽客</a></p><p><a href="http://app.baidu.com/ada_nettest" target="_blank" rel="noopener">网速测试</a></p><p><a href="https://www.processon.com/" target="_blank" rel="noopener">在线作图</a></p><p><a href="http://www.lanrentuku.com/" target="_blank" rel="noopener">懒人图库</a></p><p><a href="http://www.865171.cn/" target="_blank" rel="noopener">免费模版</a></p><p><a href="http://www.8isp.cn/" target="_blank" rel="noopener">8Isp空间</a></p><p><a href="http://www.jhost.cn/" target="_blank" rel="noopener">jhost</a></p><h2 id="yonyou"><a href="#yonyou" class="headerlink" title="yonyou"></a>yonyou</h2><p><a href="https://ec.yonyoucloud.com/static/home.html#/?qzid=5417" target="_blank" rel="noopener">用友友空间</a></p><p><a href="http://udn.yyuap.com/portal.php" target="_blank" rel="noopener">UDN</a></p><p><a href="http://uapcloud.yyuap.com" target="_blank" rel="noopener">uapcloud</a></p><p><a href="http://172.16.50.111/dashboard.action" target="_blank" rel="noopener">敏捷开发平台</a></p><p><a href="http://172.16.50.197:8080" target="_blank" rel="noopener">云音jira</a></p><p><a href="http://172.16.50.96/pages/viewpage.action?pageId=82716325" target="_blank" rel="noopener">云音协作</a></p><p><a href="http://git.yonyou.com/" target="_blank" rel="noopener">git yonyou</a></p><p><a href="http://qiyeyun.gitbooks.io/" target="_blank" rel="noopener">qiyeyun_gitbook</a></p><p><a href="http://172.20.8.113:4001/" target="_blank" rel="noopener">友云音文档</a></p>]]></content>
     
@@ -88,6 +480,56 @@
     
     
       <category term="前端" scheme="http://wushuning.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>oracle中批量执行sql时候，出现异常ArrayIndexOutOfBoundsException</title>
+    <link href="http://wushuning.com/2015/03/17/oracle%E4%B8%AD%E6%89%B9%E9%87%8F%E6%89%A7%E8%A1%8Csql%E6%97%B6%E5%80%99%EF%BC%8C%E5%87%BA%E7%8E%B0%E5%BC%82%E5%B8%B8ArrayIndexOutOfBoundsException/"/>
+    <id>http://wushuning.com/2015/03/17/oracle中批量执行sql时候，出现异常ArrayIndexOutOfBoundsException/</id>
+    <published>2015-03-16T16:00:00.000Z</published>
+    <updated>2018-10-18T15:36:23.754Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="问题说明"><a href="#问题说明" class="headerlink" title="问题说明"></a>问题说明</h2><p>使用jdbc接口PreparedStatement.executeBatch()向oracle中批量执行sql时候，出现异常ArrayIndexOutOfBoundsException，<br>具体信息如下：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">  [java] view plaincopyprint?</span><br><span class="line"><span class="number">1</span>.      java.lang.ArrayIndexOutOfBoundsException: -<span class="number">32413</span>  </span><br><span class="line"><span class="number">2</span>.    at oracle.jdbc.driver.OraclePreparedStatement.setupBindBuffers(OraclePreparedStatement.java:<span class="number">2672</span>)  </span><br><span class="line"><span class="number">3</span>.    atoracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:<span class="number">10688</span>)  </span><br><span class="line"><span class="number">4</span>.    atcom.keyi.xxx.dal.xx.importFile(PublicCustomerImportDao.java:<span class="number">107</span>)</span><br></pre></td></tr></table></figure></p><h2 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h2><p>The 10g driver apparently keeps a global serialnumber for all parameters in the entire batch,<br>with a “short”variable. So you can have at most 32768 parameters in the batch.<br>I was havingthe same exception because I have a INSERT statement with 42 parameters and mybatches<br>can be as big as 1000 records, so 42000 &gt; 32768 and this overflowsto a negative index.<br>I reduced the batch factor to 100 to be safe, and all iswell.<br>I guess your update DML should have a larger number of parameters perrecord,<br>right? (My diagnostic of the bug is just deduction from the symptoms)</p><p>网上查找原始帖子地址为：<a href="https://community.oracle.com/thread/599441?start=15&amp;tstart=0" target="_blank" rel="noopener">https://community.oracle.com/thread/599441?start=15&amp;tstart=0</a></p><p>大体的意思是，oracle的preparedStatement批量执行sql时，对参数个数是有上限的（针对不同版本的oracle驱动，这个上限对不同的可能是不同的）<br>这个参数个数的含义指addBatch的次数<em>每条sql中的参数个数。对于Oracle 10g的驱动来说，<br>这个值可能是32768，所以编程时，addBatch的次数</em>每条sql中的参数个数应该小于这个值，否则报错。</p><p>按照这个思路，将addBatch的数量减少，使每次executeBatch的参数值小于32768，发现异常解决。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;问题说明&quot;&gt;&lt;a href=&quot;#问题说明&quot; class=&quot;headerlink&quot; title=&quot;问题说明&quot;&gt;&lt;/a&gt;问题说明&lt;/h2&gt;&lt;p&gt;使用jdbc接口PreparedStatement.executeBatch()向oracle中批量执行sql时候，出现异常
+      
+    
+    </summary>
+    
+      <category term="oracle" scheme="http://wushuning.com/categories/oracle/"/>
+    
+    
+      <category term="oracle" scheme="http://wushuning.com/tags/oracle/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>E440等预装Linux系统(或win8系统)改win7系统的心得</title>
+    <link href="http://wushuning.com/2014/07/24/E440%E7%AD%89%E9%A2%84%E8%A3%85Linux%E7%B3%BB%E7%BB%9F-%E6%88%96win8%E7%B3%BB%E7%BB%9F-%E6%94%B9win7%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%BF%83%E5%BE%97/"/>
+    <id>http://wushuning.com/2014/07/24/E440等预装Linux系统-或win8系统-改win7系统的心得/</id>
+    <published>2014-07-23T16:00:00.000Z</published>
+    <updated>2018-10-18T15:21:38.383Z</updated>
+    
+    <content type="html"><![CDATA[<p>前几天刚入了一个E440，收到货开机才发现竟然是Linux版本的，只好自己动手更换系统，当中搜了不知多少帖子，从中午12点开始一直忙到22点，<br>终于在最后看到了熟悉的win7登陆界面，特此分享，免得和我有一样情况的同学走歪路。当然最简单的方式是入一张win7的安装盘通过光驱安装，<br>但苦于我没有任何安装光盘，所以使用了U盘安装的方式。<br>PS:此方法同样适用于win8想更换成win7的用户</p><h2 id="一、准备阶段"><a href="#一、准备阶段" class="headerlink" title="一、准备阶段"></a>一、准备阶段</h2><p>1、一个4G大小的U盘</p><p>2、从网上下好你想要使用的win7系统（ghost版本亦可）</p><p>3、网上下好老毛桃版本的U盘制作器</p><p>4、网上下好分区工具diskgenius（注意一定要是专业版的，最好是绿色免安装版）</p><p>注：为了以免大家以为我是托或者有病毒，所以在此都不上链接，大家一般都可以通过百度第一页搜到</p><p>5、根据老毛桃的提示，把U盘制作成WINPE U盘启动器，并在U盘中拷入win7系统和dskgenius</p><p>6、下载好E440的驱动软件（联想thinkpad官方下载，至少把上网驱动下好）</p><p>7、记得以上所有软件如果初始状态时压缩包的话都必须解压完成（ISO系统除外）</p><h2 id="二、BIOS阶段"><a href="#二、BIOS阶段" class="headerlink" title="二、BIOS阶段"></a>二、BIOS阶段</h2><p>1、重启后按F1进入BIOS阶段</p><p>2、如果直接按F12通过U盘进WINPE系统，你会发现根本读不出硬盘，这是因为thinkpad的BIOS中设置成这样的，</p><p>我们需要对BIOS进行修改。具体步骤可以参见<br><a href="http://think.lenovo.com.cn/htmls/knowledge/detail_20131119161402965.html" target="_blank" rel="noopener">http://think.lenovo.com.cn/htmls/knowledge/detail_20131119161402965.html</a><br>（联想官网，放心点击）</p><h2 id="三、WINPE阶段"><a href="#三、WINPE阶段" class="headerlink" title="三、WINPE阶段"></a>三、WINPE阶段</h2><p>1、根据上一步完成BIOS设置后，就可以重启并按F12进WINPE系统了。进去后系统直接提示你安装你放入U盘中的系统，别睬它，点击关闭。</p><p>2、还记得我让你拷进U盘中的diskgenius专业版么？拷进电脑硬盘中，并双击打开。在左边窗口点击硬盘，你会发现初始的硬盘只有一个分区，<br>而且是GUID格式（简称GPT），而win7和win PE的默认方式是MBR，所以如果不对硬盘模式进行转换是无法安装win7的。点击硬盘，<br>选择上面的“硬盘”——“转换分区表类型为MBR格式”，转换完成后，格式化整个硬盘，然后根据自己的需求快速分区（一般2个就够了，<br>一个系统25G，另一个就是剩下的），最后点击“硬盘”——“重建主引导记录（MBR）（M）”。</p><p>3、以上步骤全部完成后，重启电脑，并重新进入WINPE，根据提示运行GHOST安装系统，完成后重启电脑（拔掉U盘吧，没用了），</p><p>这个时候就会看到久违的win7系统启动图标。</p><h2 id="四、WIN7阶段"><a href="#四、WIN7阶段" class="headerlink" title="四、WIN7阶段"></a>四、WIN7阶段</h2><p>1、根据提示安装好可以安装的所有驱动，可能会发现上网驱动没有安装成功，还记得我在准备阶段让你们下载的上网驱动么？装好它你就可以上网了。</p><p>2、最后根据自己的需求安装软件，包括最新的补丁等等。</p><p>Enjoy it!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;前几天刚入了一个E440，收到货开机才发现竟然是Linux版本的，只好自己动手更换系统，当中搜了不知多少帖子，从中午12点开始一直忙到22点，&lt;br&gt;终于在最后看到了熟悉的win7登陆界面，特此分享，免得和我有一样情况的同学走歪路。当然最简单的方式是入一张win7的安装盘通
+      
+    
+    </summary>
+    
+      <category term="系统" scheme="http://wushuning.com/categories/%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="系统" scheme="http://wushuning.com/tags/%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
