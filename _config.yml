@@ -88,4 +88,4 @@ theme: hexo-theme-yyy
 deploy:
   type: git
   repo:
-    github: git@github.com:wangzhikui/wangzhikui.github.io.git
+    github: git@wangzhikui.github.com:wangzhikui/wangzhikui.github.io.git

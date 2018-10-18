@@ -129,3 +129,7 @@ Node:
     link: https://www.netlify.cn/
     logo: /images/logo/netlify-logo.png
     desc: 免费提供静态网络托管服务的综合平台
+  markdown转换:
+    link: http://blog.didispace.com/tools/online-markdown/
+    logo: /images/logo/markdown-logo.png
+    desc: 可转微信公众号

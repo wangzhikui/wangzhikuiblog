@@ -1,7 +1,7 @@
 ---
 title: markdown常用语法
 categories: markdown
-tags: [markdown,博客]
+tags: [markdown]
 date: 2018-10-01
 ---
 本文参考 [Github markdown 基本写法](https://help.github.com/articles/basic-writing-and-formatting-syntax/#further-reading)，更多详细描述可直接前往Github查看  
