@@ -133,3 +133,8 @@ Node:
     link: http://blog.didispace.com/tools/online-markdown/
     logo: /images/logo/markdown-logo.png
     desc: 可转微信公众号
+博客搭建:
+  hexo:
+    link: https://hexo.io/zh-cn/
+    logo: /images/logo/hexo-logo.png
+    desc: 快速、简洁且高效的博客框架

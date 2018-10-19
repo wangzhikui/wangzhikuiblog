@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wushuning.com/"/>
-  <updated>2018-10-18T16:15:22.168Z</updated>
+  <updated>2018-10-19T08:07:03.141Z</updated>
   <id>http://wushuning.com/</id>
   
   <author>
@@ -17,19 +17,49 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>web全栈技术图谱v1.0</title>
-    <link href="http://wushuning.com/2018/10/18/web%E5%85%A8%E6%A0%88%E6%8A%80%E6%9C%AF%E5%9B%BE%E8%B0%B1v1-0/"/>
-    <id>http://wushuning.com/2018/10/18/web全栈技术图谱v1-0/</id>
-    <published>2018-10-17T16:00:00.000Z</published>
-    <updated>2018-10-18T16:15:22.168Z</updated>
+    <title>hexo结合gitpage搭建无限空间静态博客</title>
+    <link href="http://wushuning.com/2018/10/19/hexo%E7%BB%93%E5%90%88gitpage%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://wushuning.com/2018/10/19/hexo结合gitpage搭建无限空间静态博客/</id>
+    <published>2018-10-18T16:00:00.000Z</published>
+    <updated>2018-10-19T08:07:03.141Z</updated>
     
-    <content type="html"><![CDATA[<p>近期一直在研究数据可视化产品，技术栈也不断变宽，变深。根据自己接触到的技术体系整理了一个web全栈技术图谱v1.0。做个记录，也给自己一个小目标，对每个技术方向都能出个入门教程，任重而道远<br><img src="/images/web全栈技术图谱v1.0.png" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="什么是Hexo"><a href="#什么是Hexo" class="headerlink" title="什么是Hexo"></a>什么是Hexo</h1><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://wushuning.com/2018/10/01/markdown/">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。<br>生成静态网页即可托管到任何支持静态网页的服务器上。</p><h1 id="什么是GitPage"><a href="#什么是GitPage" class="headerlink" title="什么是GitPage"></a>什么是GitPage</h1><p><a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> 与GitHub同属一个研发组织，免费为你的GitHub项目提供项目部署和托管服务，一个GitHub账号可以创建一个GitPage空间。GitPage支持静态和markdown语法的项目，并与GitHub上的项目实时同步自动渲染。所以你可以很容易使用GitPage搭建自己的博客。</p><p>特别注意：一个GitHub账号只能创建一个GitPage空间，并且名称有特殊要求下文详细说明。</p><p>可选框架：<br><a href="https://jekyllrb.com/docs/" target="_blank" rel="noopener">jekyll</a></p><h1 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">nodejs</span><br><span class="line">Git</span><br></pre></td></tr></table></figure><h1 id="创建github账号和同名项目"><a href="#创建github账号和同名项目" class="headerlink" title="创建github账号和同名项目"></a>创建github账号和同名项目</h1><ul><li>申请账号如:wangzhikui</li><li>创建同名项目:wangzhikui.github.io  </li></ul><p>如图:<br><img src="/images/hexo/hexo-gitpage-1.png" alt=""></p><p>进入项目的【setting &gt; GitHub Pages】</p><p>如图：</p><p><img src="/images/hexo/hexo-gitpage-2.png" alt=""><br>按照描述设置开启即可。</p><p>到此为止GitPages已经可以使用，提交到wangzhikui.github.io的静态或markdown形式的文件会自动同步到GitPages空间。可通过<a href="http://wangzhikui.github.io访问。" target="_blank" rel="noopener">http://wangzhikui.github.io访问。</a></p><h1 id="配置域名-无此需要可跳过"><a href="#配置域名-无此需要可跳过" class="headerlink" title="配置域名(无此需要可跳过)"></a>配置域名(无此需要可跳过)</h1><h2 id="一、上一步GitPages设置中设置域名如：wushuning-com"><a href="#一、上一步GitPages设置中设置域名如：wushuning-com" class="headerlink" title="一、上一步GitPages设置中设置域名如：wushuning.com"></a>一、上一步GitPages设置中设置域名如：wushuning.com</h2><h2 id="二、配置域名的A地址和CNAME别名"><a href="#二、配置域名的A地址和CNAME别名" class="headerlink" title="二、配置域名的A地址和CNAME别名"></a>二、配置域名的A地址和CNAME别名</h2><p>本域名在阿里云申请，所以登录aliyun.com进入域名配置，域名解析做如下配置</p><p><img src="/images/hexo/域名配置.png" alt="域名配置"></p><h2 id="三、项目根目录中添加名为CNAME的文件，内容为-wushuning-com"><a href="#三、项目根目录中添加名为CNAME的文件，内容为-wushuning-com" class="headerlink" title="三、项目根目录中添加名为CNAME的文件，内容为 wushuning.com"></a>三、项目根目录中添加名为CNAME的文件，内容为 wushuning.com</h2><p><img src="/images/hexo/cname.png" alt="CNAME"></p><h1 id="hexo使用"><a href="#hexo使用" class="headerlink" title="hexo使用"></a>hexo使用</h1><h2 id="安装hexo并使用hexo创建项目"><a href="#安装hexo并使用hexo创建项目" class="headerlink" title="安装hexo并使用hexo创建项目"></a>安装hexo并使用hexo创建项目</h2><p>安装hexo脚手架工具并使用脚手架创建项目<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init wangzhikuiblog</span><br><span class="line">cd wangzhikuiblog</span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure></p><ol><li>全局安装脚手架hexo-cli</li><li>创建一个名为wangzhikuiblog的项目</li><li>进入项目目录</li><li>安装依赖包</li><li>启动服务</li></ol><p>服务启动成功出现如下图：<br><img src="/images/hexo/hexo-start.png" alt=""></p><p>通过<a href="http://localhost:4000访问示例程序" target="_blank" rel="noopener">http://localhost:4000访问示例程序</a><br>到此使用hexo创建项目已经完成</p><h2 id="手动部署"><a href="#手动部署" class="headerlink" title="手动部署"></a>手动部署</h2><p>进入项目目录运行命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></p><p>则会在项目路径中生成一个public文件夹，里边的内容即为hexo为我们生成的所有静态文件。手动将public里边的所有文件git传到wangzhikui.github.io即可。</p><p>到此可通过<br><a href="http://wangzhikui.bighub.io" target="_blank" rel="noopener">http://wangzhikui.bighub.io</a><br>或域名（如果配置了）<br><a href="http://wushuning.com">http://wushuning.com</a><br>访问你的网站。</p><h2 id="自动部署"><a href="#自动部署" class="headerlink" title="自动部署"></a>自动部署</h2><p>打开项目根目录下的_config.yml 找到如下配置:<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span></span><br><span class="line"><span class="attr">    github:</span> <span class="string">git@github.com:wangzhikui/wangzhikui.github.io.git</span></span><br></pre></td></tr></table></figure></p><p>运行命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></p><p>则将public下的文件部署到wangzhikui.github.io.git上，我这里只有一个分支master，所以默认，如果要填写分支可以配置repo。建议保持一个分支就可以了。</p><p>hexo d 命令push代码使用的是ssh，所以需要配置github的ssh key 关于key生成配置这里不赘述。</p><p><strong><code>注：如果本地要维护两个github账号，这种情况有可能遇到ssh key冲突，该情况在下一篇博文描述</code></strong></p><h2 id="hexo生成的项目目录结构简介"><a href="#hexo生成的项目目录结构简介" class="headerlink" title="hexo生成的项目目录结构简介"></a>hexo生成的项目目录结构简介</h2><p>使用hexo创建的项目路径如下图：</p><p><img src="/images/hexo/hexo-project.png" alt="hexo 项目结构">  </p><p><a href="https://github.com/wangzhikui/wangzhikuiblog" target="_blank" rel="noopener">项目源码</a></p><h2 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h2><table><thead><tr><th style="text-align:left">命令</th><th style="text-align:left">简写</th><th style="text-align:left">描述</th></tr></thead><tbody><tr><td style="text-align:left">hexo server</td><td style="text-align:left">hexo s</td><td style="text-align:left">启动服务</td></tr><tr><td style="text-align:left">hexo generate</td><td style="text-align:left">hexo g</td><td style="text-align:left">生成静态文件</td></tr><tr><td style="text-align:left">hexo deploy</td><td style="text-align:left">hexo d</td><td style="text-align:left">将静态文件部署到github上</td></tr><tr><td style="text-align:left">hexo clean</td><td style="text-align:left">无</td><td style="text-align:left">清除缓存文件 (db.json) 和已生成的静态文件 (public)</td></tr></tbody></table><p>查看更多命令: <a href="https://hexo.io/zh-cn/docs/commands" target="_blank" rel="noopener">hexo 命令大全</a></p><p>本人在部署的时候喜欢使用三个命令组合<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></p><h2 id="使用主题"><a href="#使用主题" class="headerlink" title="使用主题"></a>使用主题</h2><p>主题文件存放在 /themes下。本博客基于主题<a href="https://github.com/cofess/hexo-theme-pure" target="_blank" rel="noopener">hexo-theme-pure</a> 修改而来。大家也可前往<a href="https://hexo.io/themes/" target="_blank" rel="noopener">hexo 主题库</a> 下载自己需要的主题。</p><p>下载主题后放入/thems下</p><p>打开项目根目录的配置文件._config.yml.修改配置theme为你主题的文件夹名称即可<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: hexo-theme-yyy</span><br></pre></td></tr></table></figure></p><h2 id="创建博文"><a href="#创建博文" class="headerlink" title="创建博文"></a>创建博文</h2><h3 id="通过命令"><a href="#通过命令" class="headerlink" title="通过命令"></a>通过命令</h3><p>进入项目目录<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new test</span><br></pre></td></tr></table></figure></p><p>常见一篇名为test.md的博文，路径在/source/_posts/test.md<br>打开test.md使用markdown编辑即可。</p><h3 id="手动创建"><a href="#手动创建" class="headerlink" title="手动创建"></a>手动创建</h3><p>直接在_posts文件夹下创建一个test.md的文件即可</p><h1 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h1><blockquote><p>hexo的_config.yml和themes_config.yml分别有哪些重要配置</p></blockquote><blockquote><p>hexo中博文md文件都有哪些配置</p></blockquote><blockquote><p>hexo中使用gitalk添加评论功能</p></blockquote><blockquote><p>一个hexo主题都包含什么，如何入手修改主题满足自己个性化设置</p></blockquote><blockquote><p>本地同时维护两个github账号如何设置ssh key</p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;近期一直在研究数据可视化产品，技术栈也不断变宽，变深。根据自己接触到的技术体系整理了一个web全栈技术图谱v1.0。做个记录，也给自己一个小目标，对每个技术方向都能出个入门教程，任重而道远&lt;br&gt;&lt;img src=&quot;/images/web全栈技术图谱v1.0.png&quot; al
+        &lt;h1 id=&quot;什么是Hexo&quot;&gt;&lt;a href=&quot;#什么是Hexo&quot; class=&quot;headerlink&quot; title=&quot;什么是Hexo&quot;&gt;&lt;/a&gt;什么是Hexo&lt;/h1&gt;&lt;p&gt;Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 &lt;a href=&quot;http://wush
+      
+    
+    </summary>
+    
+      <category term="博客" scheme="http://wushuning.com/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="hexo" scheme="http://wushuning.com/tags/hexo/"/>
+    
+      <category term="github" scheme="http://wushuning.com/tags/github/"/>
+    
+      <category term="gitpage" scheme="http://wushuning.com/tags/gitpage/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>web全栈技术图谱v1.0</title>
+    <link href="http://wushuning.com/2018/10/18/web%E5%85%A8%E6%A0%88%E6%8A%80%E6%9C%AF%E5%9B%BE%E8%B0%B1v1-0/"/>
+    <id>http://wushuning.com/2018/10/18/web全栈技术图谱v1-0/</id>
+    <published>2018-10-17T16:00:00.000Z</published>
+    <updated>2018-10-19T08:10:15.416Z</updated>
+    
+    <content type="html"><![CDATA[<p>根据自己接触到的技术体系整理了一个web全栈技术图谱v1.0。做个记录<br><img src="/images/web全栈技术图谱v1.0.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;根据自己接触到的技术体系整理了一个web全栈技术图谱v1.0。做个记录&lt;br&gt;&lt;img src=&quot;/images/web全栈技术图谱v1.0.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
       
     
     </summary>
@@ -327,6 +357,32 @@
   </entry>
   
   <entry>
+    <title>mac中配置eclipse启动使用的jdk，eclipse.ini文件</title>
+    <link href="http://wushuning.com/2017/09/24/mac%E4%B8%AD%E9%85%8D%E7%BD%AEeclipse%E5%90%AF%E5%8A%A8%E4%BD%BF%E7%94%A8%E7%9A%84jdk%EF%BC%8Ceclipse-ini%E6%96%87%E4%BB%B6/"/>
+    <id>http://wushuning.com/2017/09/24/mac中配置eclipse启动使用的jdk，eclipse-ini文件/</id>
+    <published>2017-09-23T16:00:00.000Z</published>
+    <updated>2018-10-18T15:31:24.816Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="设置eclipse使用的jdk"><a href="#设置eclipse使用的jdk" class="headerlink" title="设置eclipse使用的jdk"></a>设置eclipse使用的jdk</h2><ul><li>application中找到eclipse右键show content找到eclipse的配置文件eclipse.ini</li><li>增加配置如下  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">-vm</span><br><span class="line">/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home</span><br></pre></td></tr></table></figure></li></ul><p>其中jdk的路径可以通过命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/libexec/java_home -V</span><br></pre></td></tr></table></figure></p><p>最后是大写的V查看</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;设置eclipse使用的jdk&quot;&gt;&lt;a href=&quot;#设置eclipse使用的jdk&quot; class=&quot;headerlink&quot; title=&quot;设置eclipse使用的jdk&quot;&gt;&lt;/a&gt;设置eclipse使用的jdk&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;application中
+      
+    
+    </summary>
+    
+      <category term="eclipse" scheme="http://wushuning.com/categories/eclipse/"/>
+    
+    
+      <category term="eclipse" scheme="http://wushuning.com/tags/eclipse/"/>
+    
+  </entry>
+  
+  <entry>
     <title>mac中JDK安装配置</title>
     <link href="http://wushuning.com/2017/09/24/mac%E4%B8%ADJDK%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
     <id>http://wushuning.com/2017/09/24/mac中JDK安装配置/</id>
@@ -351,32 +407,6 @@
       <category term="mac" scheme="http://wushuning.com/tags/mac/"/>
     
       <category term="java" scheme="http://wushuning.com/tags/java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mac中配置eclipse启动使用的jdk，eclipse.ini文件</title>
-    <link href="http://wushuning.com/2017/09/24/mac%E4%B8%AD%E9%85%8D%E7%BD%AEeclipse%E5%90%AF%E5%8A%A8%E4%BD%BF%E7%94%A8%E7%9A%84jdk%EF%BC%8Ceclipse-ini%E6%96%87%E4%BB%B6/"/>
-    <id>http://wushuning.com/2017/09/24/mac中配置eclipse启动使用的jdk，eclipse-ini文件/</id>
-    <published>2017-09-23T16:00:00.000Z</published>
-    <updated>2018-10-18T15:31:24.816Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="设置eclipse使用的jdk"><a href="#设置eclipse使用的jdk" class="headerlink" title="设置eclipse使用的jdk"></a>设置eclipse使用的jdk</h2><ul><li>application中找到eclipse右键show content找到eclipse的配置文件eclipse.ini</li><li>增加配置如下  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">-vm</span><br><span class="line">/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home</span><br></pre></td></tr></table></figure></li></ul><p>其中jdk的路径可以通过命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/libexec/java_home -V</span><br></pre></td></tr></table></figure></p><p>最后是大写的V查看</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;设置eclipse使用的jdk&quot;&gt;&lt;a href=&quot;#设置eclipse使用的jdk&quot; class=&quot;headerlink&quot; title=&quot;设置eclipse使用的jdk&quot;&gt;&lt;/a&gt;设置eclipse使用的jdk&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;application中
-      
-    
-    </summary>
-    
-      <category term="eclipse" scheme="http://wushuning.com/categories/eclipse/"/>
-    
-    
-      <category term="eclipse" scheme="http://wushuning.com/tags/eclipse/"/>
     
   </entry>
   
@@ -505,31 +535,6 @@
     
     
       <category term="oracle" scheme="http://wushuning.com/tags/oracle/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>E440等预装Linux系统(或win8系统)改win7系统的心得</title>
-    <link href="http://wushuning.com/2014/07/24/E440%E7%AD%89%E9%A2%84%E8%A3%85Linux%E7%B3%BB%E7%BB%9F-%E6%88%96win8%E7%B3%BB%E7%BB%9F-%E6%94%B9win7%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%BF%83%E5%BE%97/"/>
-    <id>http://wushuning.com/2014/07/24/E440等预装Linux系统-或win8系统-改win7系统的心得/</id>
-    <published>2014-07-23T16:00:00.000Z</published>
-    <updated>2018-10-18T15:21:38.383Z</updated>
-    
-    <content type="html"><![CDATA[<p>前几天刚入了一个E440，收到货开机才发现竟然是Linux版本的，只好自己动手更换系统，当中搜了不知多少帖子，从中午12点开始一直忙到22点，<br>终于在最后看到了熟悉的win7登陆界面，特此分享，免得和我有一样情况的同学走歪路。当然最简单的方式是入一张win7的安装盘通过光驱安装，<br>但苦于我没有任何安装光盘，所以使用了U盘安装的方式。<br>PS:此方法同样适用于win8想更换成win7的用户</p><h2 id="一、准备阶段"><a href="#一、准备阶段" class="headerlink" title="一、准备阶段"></a>一、准备阶段</h2><p>1、一个4G大小的U盘</p><p>2、从网上下好你想要使用的win7系统（ghost版本亦可）</p><p>3、网上下好老毛桃版本的U盘制作器</p><p>4、网上下好分区工具diskgenius（注意一定要是专业版的，最好是绿色免安装版）</p><p>注：为了以免大家以为我是托或者有病毒，所以在此都不上链接，大家一般都可以通过百度第一页搜到</p><p>5、根据老毛桃的提示，把U盘制作成WINPE U盘启动器，并在U盘中拷入win7系统和dskgenius</p><p>6、下载好E440的驱动软件（联想thinkpad官方下载，至少把上网驱动下好）</p><p>7、记得以上所有软件如果初始状态时压缩包的话都必须解压完成（ISO系统除外）</p><h2 id="二、BIOS阶段"><a href="#二、BIOS阶段" class="headerlink" title="二、BIOS阶段"></a>二、BIOS阶段</h2><p>1、重启后按F1进入BIOS阶段</p><p>2、如果直接按F12通过U盘进WINPE系统，你会发现根本读不出硬盘，这是因为thinkpad的BIOS中设置成这样的，</p><p>我们需要对BIOS进行修改。具体步骤可以参见<br><a href="http://think.lenovo.com.cn/htmls/knowledge/detail_20131119161402965.html" target="_blank" rel="noopener">http://think.lenovo.com.cn/htmls/knowledge/detail_20131119161402965.html</a><br>（联想官网，放心点击）</p><h2 id="三、WINPE阶段"><a href="#三、WINPE阶段" class="headerlink" title="三、WINPE阶段"></a>三、WINPE阶段</h2><p>1、根据上一步完成BIOS设置后，就可以重启并按F12进WINPE系统了。进去后系统直接提示你安装你放入U盘中的系统，别睬它，点击关闭。</p><p>2、还记得我让你拷进U盘中的diskgenius专业版么？拷进电脑硬盘中，并双击打开。在左边窗口点击硬盘，你会发现初始的硬盘只有一个分区，<br>而且是GUID格式（简称GPT），而win7和win PE的默认方式是MBR，所以如果不对硬盘模式进行转换是无法安装win7的。点击硬盘，<br>选择上面的“硬盘”——“转换分区表类型为MBR格式”，转换完成后，格式化整个硬盘，然后根据自己的需求快速分区（一般2个就够了，<br>一个系统25G，另一个就是剩下的），最后点击“硬盘”——“重建主引导记录（MBR）（M）”。</p><p>3、以上步骤全部完成后，重启电脑，并重新进入WINPE，根据提示运行GHOST安装系统，完成后重启电脑（拔掉U盘吧，没用了），</p><p>这个时候就会看到久违的win7系统启动图标。</p><h2 id="四、WIN7阶段"><a href="#四、WIN7阶段" class="headerlink" title="四、WIN7阶段"></a>四、WIN7阶段</h2><p>1、根据提示安装好可以安装的所有驱动，可能会发现上网驱动没有安装成功，还记得我在准备阶段让你们下载的上网驱动么？装好它你就可以上网了。</p><p>2、最后根据自己的需求安装软件，包括最新的补丁等等。</p><p>Enjoy it!</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;前几天刚入了一个E440，收到货开机才发现竟然是Linux版本的，只好自己动手更换系统，当中搜了不知多少帖子，从中午12点开始一直忙到22点，&lt;br&gt;终于在最后看到了熟悉的win7登陆界面，特此分享，免得和我有一样情况的同学走歪路。当然最简单的方式是入一张win7的安装盘通
-      
-    
-    </summary>
-    
-      <category term="系统" scheme="http://wushuning.com/categories/%E7%B3%BB%E7%BB%9F/"/>
-    
-    
-      <category term="系统" scheme="http://wushuning.com/tags/%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
