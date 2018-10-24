@@ -196,11 +196,11 @@ profile:
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills
   skills:
+    javascript:
+    ES6:
     Java: 
     Spring:
-    javascript:
     Angularjs: 
-    ES6:
     Vue:
     gulp:
     Webpack:
@@ -226,7 +226,10 @@ profile:
     维护云:
       link: http://umc.yonyou.com
       date: 2015
-    友云音:
+    友云音2.0:
+      link: https://yyy2.yonyoucloud.com/
+      date: 2015-2018
+    友云音3.0:
       link: http://yyy.yonyoucloud.com
       date: 2016-2018
     DataFace(在研):
@@ -241,6 +244,9 @@ profile:
     wangzhikuiblog:
       link: https://github.com/wangzhikui/wangzhikuiblog
       date: 2018
+    Angularjs技术库:
+      link: http://wangzhikui.github.io/angularjs/index.html
+      date: 2016
   # My Personal Projects
   # projects:
   #   cofess/gulp-startpro: https://github.com/cofess/gulp-startpro

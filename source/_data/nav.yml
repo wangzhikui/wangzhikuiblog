@@ -133,6 +133,10 @@ Node:
     link: http://blog.didispace.com/tools/online-markdown/
     logo: /images/logo/markdown-logo.png
     desc: 可转微信公众号
+  马克飞象:
+    link: https://maxiang.io/
+    logo: /images/logo/maxiang-logo.png
+    desc: 在线markdown编辑
 博客搭建:
   hexo:
     link: https://hexo.io/zh-cn/

@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wushuning.com/2016/05/24/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8Byyy1/</loc>
+    
+    <lastmod>2018-10-23T14:52:23.918Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wushuning.com/2018/07/21/codereview%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
+    
+    <lastmod>2018-10-23T14:40:30.223Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wushuning.com/2018/10/10/vue%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B-%E4%BD%BF%E7%94%A8vue-cli%E6%90%AD%E5%BB%BA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
+    
+    <lastmod>2018-10-23T13:59:11.866Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wushuning.com/2016/01/01/%E4%B8%AA%E4%BA%BA%E5%B8%B8%E7%94%A8%E7%BD%91%E5%9D%80/</loc>
+    
+    <lastmod>2018-10-22T09:06:26.772Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wushuning.com/2018/10/18/web%E5%85%A8%E6%A0%88%E6%8A%80%E6%9C%AF%E5%9B%BE%E8%B0%B1v1-0/</loc>
     
     <lastmod>2018-10-19T08:10:15.416Z</lastmod>
@@ -12,13 +40,6 @@
     <loc>http://wushuning.com/2018/10/19/hexo%E7%BB%93%E5%90%88gitpage%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2018-10-19T08:07:03.141Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wushuning.com/2018/10/10/vue%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B-%E4%BD%BF%E7%94%A8vue-cli%E6%90%AD%E5%BB%BA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
-    
-    <lastmod>2018-10-18T16:10:13.782Z</lastmod>
     
   </url>
   
@@ -149,14 +170,14 @@
   </url>
   
   <url>
-    <loc>http://wushuning.com/repository/index.html</loc>
+    <loc>http://wushuning.com/nav/index.html</loc>
     
     <lastmod>2018-10-18T12:05:08.345Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://wushuning.com/nav/index.html</loc>
+    <loc>http://wushuning.com/repository/index.html</loc>
     
     <lastmod>2018-10-18T12:05:08.345Z</lastmod>
     
@@ -180,13 +201,6 @@
     <loc>http://wushuning.com/about/index.html</loc>
     
     <lastmod>2018-10-18T12:05:08.330Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wushuning.com/2016/01/01/%E4%B8%AA%E4%BA%BA%E5%B8%B8%E7%94%A8%E7%BD%91%E5%9D%80/</loc>
-    
-    <lastmod>2018-10-18T12:05:08.329Z</lastmod>
     
   </url>
   
