@@ -133,6 +133,10 @@ Node:
     link: https://www.bootcdn.cn/
     logo: /images/logo/bootcdn-logo.png
     desc: 免费的前端开源项目CDN加速服务
+  jsDelivr:
+    link: https://www.jsdelivr.com/
+    logo: /images/logo/jsdelivr-logo.png
+    desc: Open Source CDN
   netlify:
     link: https://www.netlify.cn/
     logo: /images/logo/netlify-logo.png
