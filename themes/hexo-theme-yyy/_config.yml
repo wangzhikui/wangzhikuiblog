@@ -127,8 +127,8 @@ comment:
     owner: wangzhikui #必须. GitHub repository 所有者，可以是个人或者组织。
     admin: wangzhikui #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
     repo: wangzhikui.github.io #必须. GitHub repository.
-    ClientID: fed3217906f39fc6e769 #必须. GitHub Application Client ID.
-    ClientSecret: 56b2ce7d6867b4f7f252e84fb3be6c338703f0b1 #必须. GitHub Application Client Secret.
+    ClientID: 您的id #必须. GitHub Application Client ID.
+    ClientSecret: 您的secret #必须. GitHub Application Client Secret.
   valine: # Valine. https://valine.js.org
     appid:  # your leancloud application appid
     appkey:  # your leancloud application appkey

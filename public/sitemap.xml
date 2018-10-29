@@ -2,16 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://wushuning.com/2016/05/24/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8Byyy1/</loc>
+    <loc>http://wushuning.com/2018/10/24/QCon2018%E5%85%A8%E7%90%83%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%A4%A7%E4%BC%9APPT%E5%90%88%E9%9B%86/</loc>
     
-    <lastmod>2018-10-23T14:52:23.918Z</lastmod>
+    <lastmod>2018-10-29T06:10:02.429Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wushuning.com/2018/10/29/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95-2-kanban/</loc>
+    
+    <lastmod>2018-10-29T06:08:34.141Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wushuning.com/2018/10/26/%E7%A0%94%E5%8F%91%E4%B8%AD%E5%90%84%E7%A7%8Dtitle-RD-PM%E7%AD%89%E5%90%AB%E4%B9%89/</loc>
+    
+    <lastmod>2018-10-26T09:12:43.162Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wushuning.com/2018/10/26/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95-1-scrum/</loc>
+    
+    <lastmod>2018-10-26T09:04:03.694Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wushuning.com/2018/10/01/markdown/</loc>
+    
+    <lastmod>2018-10-26T06:01:10.230Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://wushuning.com/2018/07/21/codereview%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
     
-    <lastmod>2018-10-23T14:40:30.223Z</lastmod>
+    <lastmod>2018-10-26T03:20:48.321Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wushuning.com/2016/05/24/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8Byyy1/</loc>
+    
+    <lastmod>2018-10-23T14:52:23.918Z</lastmod>
     
   </url>
   
@@ -163,14 +198,14 @@
   </url>
   
   <url>
-    <loc>http://wushuning.com/tags/index.html</loc>
+    <loc>http://wushuning.com/nav/index.html</loc>
     
     <lastmod>2018-10-18T12:05:08.345Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://wushuning.com/nav/index.html</loc>
+    <loc>http://wushuning.com/tags/index.html</loc>
     
     <lastmod>2018-10-18T12:05:08.345Z</lastmod>
     
@@ -191,13 +226,6 @@
   </url>
   
   <url>
-    <loc>http://wushuning.com/categories/index.html</loc>
-    
-    <lastmod>2018-10-18T12:05:08.330Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://wushuning.com/about/index.html</loc>
     
     <lastmod>2018-10-18T12:05:08.330Z</lastmod>
@@ -205,9 +233,9 @@
   </url>
   
   <url>
-    <loc>http://wushuning.com/2018/10/01/markdown/</loc>
+    <loc>http://wushuning.com/categories/index.html</loc>
     
-    <lastmod>2018-10-18T12:05:08.329Z</lastmod>
+    <lastmod>2018-10-18T12:05:08.330Z</lastmod>
     
   </url>
   

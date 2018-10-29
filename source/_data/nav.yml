@@ -20,6 +20,14 @@
     link: https://www.docschina.org/
     logo: /images/logo/docschina-logo.png
     desc: 权威的中文技术文档社区
+  MDN:
+    link: https://developer.mozilla.org/
+    logo: /images/logo/mdn-logo.png
+    desc: mdn开发者中心
+  ECMA:
+    link: http://www.ecma-international.org/ecma-262/
+    logo: /images/favicon.png
+    desc: ES英文文档
 框架类库:
   Angular:
     link: https://www.angular.cn/
