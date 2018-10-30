@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wushuning.com/"/>
-  <updated>2018-10-29T06:08:34.141Z</updated>
+  <updated>2018-10-29T06:13:19.342Z</updated>
   <id>http://wushuning.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>敏捷开发方法(三) 看板 vs scrum</title>
+    <link href="http://wushuning.com/2018/10/29/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95-3-scrum%E5%AF%B9%E6%AF%94kanban/"/>
+    <id>http://wushuning.com/2018/10/29/敏捷开发方法-3-scrum对比kanban/</id>
+    <published>2018-10-28T16:00:00.000Z</published>
+    <updated>2018-10-29T06:13:19.342Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Scrum-与-Kanban-对比-amp-选择"><a href="#Scrum-与-Kanban-对比-amp-选择" class="headerlink" title="Scrum 与 Kanban 对比&amp;选择"></a>Scrum 与 Kanban 对比&amp;选择</h1><p><img src="/images/敏捷/kanban-scrum.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Scrum-与-Kanban-对比-amp-选择&quot;&gt;&lt;a href=&quot;#Scrum-与-Kanban-对比-amp-选择&quot; class=&quot;headerlink&quot; title=&quot;Scrum 与 Kanban 对比&amp;amp;选择&quot;&gt;&lt;/a&gt;Scrum 与 Kanban
+      
+    
+    </summary>
+    
+      <category term="研发管理" scheme="http://wushuning.com/categories/%E7%A0%94%E5%8F%91%E7%AE%A1%E7%90%86/"/>
+    
+    
+      <category term="笔记" scheme="http://wushuning.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="研发管理" scheme="http://wushuning.com/tags/%E7%A0%94%E5%8F%91%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>敏捷开发方法(二) 看板</title>
@@ -285,28 +312,27 @@
   </entry>
   
   <entry>
-    <title>Java性能调优的11个实用技巧</title>
-    <link href="http://wushuning.com/2017/11/24/Java%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98%E7%9A%8411%E4%B8%AA%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
-    <id>http://wushuning.com/2017/11/24/Java性能调优的11个实用技巧/</id>
+    <title>SpringBoot无法启动，启动后报404错误</title>
+    <link href="http://wushuning.com/2017/11/24/SpringBoot%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%EF%BC%8C%E5%90%AF%E5%8A%A8%E5%90%8E%E6%8A%A5404%E9%94%99%E8%AF%AF/"/>
+    <id>http://wushuning.com/2017/11/24/SpringBoot无法启动，启动后报404错误/</id>
     <published>2017-11-23T16:00:00.000Z</published>
-    <updated>2018-10-18T15:26:52.084Z</updated>
+    <updated>2018-10-18T15:20:02.836Z</updated>
     
-    <content type="html"><![CDATA[<p>作者：ITeye<br>来源：ITeye[<a href="http://www.iteye.com/news/32754]" target="_blank" rel="noopener">http://www.iteye.com/news/32754]</a></p><p>大多数开发人员认为性能优化是个比较复杂的问题，需要大量的经验和知识。是的，这并不没有错。诚然，优化应用程序以获得最好的性能并不是一件容易的事情，但这并不意味着你在没有获得这些经验和知识之前就不能做任何事。下面有几个很容易遵循的建议和最佳实践能够帮你创建一个性能良好的应用程序。</p><p>这些建议中的大多数都是基于Java的，但是也不一定，也有一些是可以应用于所有的应用程序和编程语言的。在我们分享基于Java的性能调优技巧之前，让我们先讨论一下这些通用的性能调优技巧。</p><h3 id="1-在必要之前，先不要优化"><a href="#1-在必要之前，先不要优化" class="headerlink" title="1.在必要之前，先不要优化"></a>1.在必要之前，先不要优化</h3><p>这可能是最最重要的性能调优技巧之一。你应该遵循常见的最佳实践，并尝试有效地实现你的用例。但这并不意味着在证明它是必要之前，替换任何标准库或构建复杂的优化。</p><p>在大多数情况下，过早的优化占用了大量的时间，使得代码难以读取和维护。更糟糕的是，这些优化通常不会带来任何好处，因为你花费了大量时间来优化应用程序的非关键部分。</p><p>那么，你如何证明你需要优化某些东西呢?</p><p>首先，你需要确定应用程序代码的速度，例如，为所有API调用指定一个最大响应时间，或者指定在特定时间范围内导入的记录数量。完成之后，你可以度量应用程序的哪些部分太慢而需要改进。当这样做之后，那么请继续看第二个调优技巧。</p><h3 id="2-使用分析器来找到真正的瓶颈"><a href="#2-使用分析器来找到真正的瓶颈" class="headerlink" title="2.使用分析器来找到真正的瓶颈"></a>2.使用分析器来找到真正的瓶颈</h3><p>在你遵循第一条建议，并确定你的应用程序的某些部分的确需要改进之后，问自己从哪里开始?</p><p>你可以用两种方法来解决这个问题:</p><p>你可以看一下你的代码，从看起来可疑或者你觉得它可能会产生问题的部分开始。<br>或者使用分析器，获取代码中每个部分的行为和性能的详细信息。<br>至于为什么应该总是遵循第二种方法。</p><p>答案应该很明显，基于分析器的方法能让你更好地理解代码的性能含义，并允许你关注最关键的部分。如果你曾经使用过分析器，你将会惊讶于代码的哪些部分造成了性能问题。然而，很多时候，你的第一次猜想会把你引向错误的方向。</p><h3 id="3-为整个应用程序创建性能测试套件"><a href="#3-为整个应用程序创建性能测试套件" class="headerlink" title="3 .为整个应用程序创建性能测试套件"></a>3 .为整个应用程序创建性能测试套件</h3><p>这是另一个帮助你避免许多意想不到问题的一般技巧，这些问题通常发生在性能改进部署到生产环境之后。你应该经常定义测试整个应用程序的性能测试套件，并在你完成性能改进之前和之后运行它。</p><p>这些额外的测试运行将帮助你识别更改的功能和性能方面的影响，并确保你不会发布一个弊大于利的更新。如果你的任务运行于应用程序的多个不同部分比如数据库或缓存，这一点尤其重要。</p><h3 id="4-首先解决最大的瓶颈问题"><a href="#4-首先解决最大的瓶颈问题" class="headerlink" title="4.首先解决最大的瓶颈问题"></a>4.首先解决最大的瓶颈问题</h3><p>在创建了测试套件并使用分析器对应用程序进行分析之后，你就有了一个需要提高性能的问题列表，这很好，但它仍然不能回答你应该从哪里开始的问题。你可以从那些可以快速搞定的开始，亦或者从最重要的问题开始。</p><p>当然前者很诱人，因为这很快就能出结果。有时，可能需要说服其他团队成员或你的管理层，性能分析是值得的。</p><p>但总的来说，我建议首先着手处理最重要的性能问题。这将为你提供最大的性能改进，而且你可能只需要修复这些问题中的几个就可以解决你的性能需求。</p><p>在了解通用性能调优技巧之后，让我们再来仔细看看一些特定于Java的调优技巧。</p><h3 id="5-使用StringBuilder以编程方式连接字符串"><a href="#5-使用StringBuilder以编程方式连接字符串" class="headerlink" title="5.使用StringBuilder以编程方式连接字符串"></a>5.使用StringBuilder以编程方式连接字符串</h3><p>在Java中有许多不同的连接字符串的选项。例如，可以使用一个简单的+或+ =、老的StringBuffer或StringBuilder。</p><p>那么，你应该选择哪种方法呢?</p><p>答案取决于连接字符串的代码。如果你以编程方式向字符串中添加新内容，例如，在for循环中，你应该使用StringBuilder。它比StringBuffer更容易使用和提供更好的性能。但是请记住，StringBuilder与StringBuffer不同，它不是线程安全的，而且可能不适合所有用例。</p><p>你只需要实例化一个新的StringBuilder，并调用append方法在字符串中添加一个新的部分。当你添加了所有的部分后，可以调用toString()方法来检索连接字符串。</p><p>下面的代码片段展示了一个简单的示例。在每次迭代过程中，这个循环将i转换成一个字符串，并将其添加到StringBuilder sb的空间中，因此到最后，这段代码写入“this is test0123456789”到日志文件。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">StringBuilder sb = <span class="keyword">new</span> StringBuilder(“This is a test”);  </span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;<span class="number">10</span>; i++) &#123;  </span><br><span class="line">    sb.append(i);  </span><br><span class="line">    sb.append(” “);  </span><br><span class="line">&#125;  </span><br><span class="line">log.info(sb.toString());</span><br></pre></td></tr></table></figure><p>正如在代码片段中看到的，你可以为构造函数方法提供字符串的第一个元素。这将创建一个新的StringBuilder，其中包含提供的字符串和16个额外字符的容量。当你向StringBuilder中添加更多字符时，JVM将动态地改变StringBuilder的大小。</p><p>如果你已经知道自己的字符串包含多少字符，那么你可以向不同的构造函数方法提供这个数字，以实例化一个具有被定义容量的StringBuilder。这进一步提高了它的效率，因为它不需要动态扩展它的容量。</p><h3 id="6-在声明中使用-连接字符串"><a href="#6-在声明中使用-连接字符串" class="headerlink" title="6.在声明中使用+连接字符串"></a>6.在声明中使用+连接字符串</h3><p>当你在Java中实现第一个应用程序时，可能有人告诉你不应该用＋来连接字符串。如果在应用程序逻辑中连接字符串这是正确的。字符串是不可变的，每个字符串连接的结果存储在一个新的字符串对象中。这需要额外的内存，并降低应用程序的速度，特别是在循环中连接多个字符串时。</p><p>在这些情况下，你应该遵循tip 5并使用StringBuilder。</p><p>但如果你只是将一个字符串分解成多行来提高代码的可读性，那就不是这样了。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Query q = em.createQuery(“SELECT a.id, a.firstName, a.lastName ”  </span><br><span class="line">+ “FROM Author a ”  </span><br><span class="line">+ “WHERE a.id = :id”);</span><br></pre></td></tr></table></figure><p>在这些情况下，你应该用一个简单的+来连接你的字符串。Java编译器将优化它并在编译时执行连接。因此，在运行时，代码只使用1个字符，不需要连接。</p><h3 id="7-尽可能使用基本数据类型"><a href="#7-尽可能使用基本数据类型" class="headerlink" title="7.尽可能使用基本数据类型"></a>7.尽可能使用基本数据类型</h3><p>另一种避免开销，提高应用程序性能的快速方法就是使用原始数据类型而不是它们的包装类。因此，最好是使用int而不是Integer，或者是double而不是Double。这将让JVM将值存储在堆栈中，以减少内存消耗，并更有效地处理它。</p><h3 id="8-尽量避免BigInteger和BigDecimal"><a href="#8-尽量避免BigInteger和BigDecimal" class="headerlink" title="8.尽量避免BigInteger和BigDecimal"></a>8.尽量避免BigInteger和BigDecimal</h3><p>由于我们已经讨论了数据类型，我们再来看下BigInteger和BigDecimal。尤其是后者，由于其精度高而受欢迎。但这是有代价的。<br>BigInteger和BigDecimal比简单的long或double需要更多的内存，并且大大降低所有的计算速度。因此，如果你需要额外的精度，或者你的数字超过了一个long范围，最好三思而后行。这可能是你在提升性能问题中唯一需要更改的地方，特别是当你正在实现一个数学算法。</p><h3 id="9-首先检查当前日志级别"><a href="#9-首先检查当前日志级别" class="headerlink" title="9.首先检查当前日志级别"></a>9.首先检查当前日志级别</h3><p>这个建议是显而易见的，但不幸的是，你会发现许多代码忽略它。在创建调试消息之前，应该先检查当前日志级别。</p><p>这里有两个例子来说明你不应该这样做。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// don’t do this  </span></span><br><span class="line">log.debug(“User [” + userName + “] called method X with [” + i + “]”);  </span><br><span class="line"><span class="comment">// or this  </span></span><br><span class="line">log.debug(String.format(“User [%s] called method X with [%d]”, userName, i));</span><br></pre></td></tr></table></figure><p>在这两种情况下，你将执行所有需要的步骤来创建日志消息，而不知道日志框架是否使用日志消息。在创建调试消息之前，最好先检查当前日志级别。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// do this  </span></span><br><span class="line"><span class="keyword">if</span> (log.isDebugEnabled()) &#123;  </span><br><span class="line">    log.debug(“User [” + userName + “] called method X with [” + i + “]”);  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="10-使用Apache-Commons-StringUtils-Replace-代替String-replace"><a href="#10-使用Apache-Commons-StringUtils-Replace-代替String-replace" class="headerlink" title="10.使用Apache Commons StringUtils.Replace 代替String.replace"></a>10.使用Apache Commons StringUtils.Replace 代替String.replace</h3><p>一般来说,String.replace 方法工作得很好，而且非常高效，特别是如果你使用的是Java 9。但是，如果应用程序需要大量的替换操作，并且你还没有更新到最新的Java版本，那么检查更快和更有效的替代方案仍然是有意义的。</p><p>一个候选就是 Apache Commons Lang’s StringUtils.replace 方法。正如Lukas Eder在他最近的一篇博客文章中所描述的那样，它大大超过了Java 8的String.replace 方法。</p><p>它只需要很小的改变。你只需要为Apache’s Commons Lang 项目增加一个Maven依赖项到你的应用pom.xml，并用StringUtils.replace方法替换所有String.replace方法的调用。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// replace this  </span></span><br><span class="line">test.replace(“test”, “simple test”);  </span><br><span class="line"><span class="comment">// with this  </span></span><br><span class="line">StringUtils.replace(test, “test”, “simple test”);</span><br></pre></td></tr></table></figure><h3 id="11-缓存昂贵的资源，比如数据库连接"><a href="#11-缓存昂贵的资源，比如数据库连接" class="headerlink" title="11.缓存昂贵的资源，比如数据库连接"></a>11.缓存昂贵的资源，比如数据库连接</h3><p>缓存是一种流行的解决方案来避免重复执行昂贵或频繁使用的代码片段。一般的想法很简单:重复使用这些资源比一次又一次地创建一个新的资源要便宜得多。</p><p>一个典型的例子就是在池中缓存数据库连接。创建新连接需要时间，如果重用现有连接，则可以避免。</p><p>还可以在Java语言本身中找到其他示例。例如，Integer类的valueOf方法缓存了- 128和127之间的值。你可能会说，创建一个新整数并不太贵，但它经常使用，缓存最常用的值提供了性能方面的好处。</p><p>但当你考虑缓存时，请记住，缓存实现也会产生开销。你需要花费额外的内存来存储可重用资源，因此可能需要管理你的缓存，以使资源能够访问或删除过时的资源。</p><p>因此，在你开始缓存任何资源之前，请确保是经常使用。</p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>正如你所看到的，提高应用程序的性能有时不需要做大量的工作。这篇文章中的大多数建议，其实只需要稍微的努力就可以将它们应用到代码中。</p><p>但通常最重要的建议是很编程语言无关的:</p><ul><li>在你知道有必要之前，不要优化</li><li>使用分析器来找到真正的瓶颈</li><li>首先解决最大的瓶颈问题</li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="SpringBoot无法启动"><a href="#SpringBoot无法启动" class="headerlink" title="SpringBoot无法启动"></a>SpringBoot无法启动</h1><p>可能的原因：直接将启动类放在了src.java.main下<br>解决方案：在main下创建自己的packadge<br>如:src.java.main.com.wzk.starter  </p><h1 id="SpringBoot正常启动，但是访问的时候提示404"><a href="#SpringBoot正常启动，但是访问的时候提示404" class="headerlink" title="SpringBoot正常启动，但是访问的时候提示404"></a>SpringBoot正常启动，但是访问的时候提示404</h1><p>原因是：controller没有被spring容器扫描到<br>解决方案1：spring boot默认扫描启动类的当前包和下级包<br>比如：启动类在 com.wzk.starter包下，那么spring 会扫描 com.wzk.starter和com.wzk.starter.*<br>如果编写的controller没有放置在这些位置就是报错</p><p>解决方案2：配置spring boot的扫描路径<br>在启动类上面添加注解：@ComponentScan(basePackages = {“com.wzk.*”})  </p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;作者：ITeye&lt;br&gt;来源：ITeye[&lt;a href=&quot;http://www.iteye.com/news/32754]&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.iteye.com/news/32754]&lt;/a&gt;&lt;/p&gt;
-&lt;
+        &lt;h1 id=&quot;SpringBoot无法启动&quot;&gt;&lt;a href=&quot;#SpringBoot无法启动&quot; class=&quot;headerlink&quot; title=&quot;SpringBoot无法启动&quot;&gt;&lt;/a&gt;SpringBoot无法启动&lt;/h1&gt;&lt;p&gt;可能的原因：直接将启动类放在了src.jav
       
     
     </summary>
     
-      <category term="java" scheme="http://wushuning.com/categories/java/"/>
+      <category term="springboot" scheme="http://wushuning.com/categories/springboot/"/>
     
     
-      <category term="java性能" scheme="http://wushuning.com/tags/java%E6%80%A7%E8%83%BD/"/>
+      <category term="springboot" scheme="http://wushuning.com/tags/springboot/"/>
     
   </entry>
   
@@ -336,27 +362,28 @@
   </entry>
   
   <entry>
-    <title>SpringBoot无法启动，启动后报404错误</title>
-    <link href="http://wushuning.com/2017/11/24/SpringBoot%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%EF%BC%8C%E5%90%AF%E5%8A%A8%E5%90%8E%E6%8A%A5404%E9%94%99%E8%AF%AF/"/>
-    <id>http://wushuning.com/2017/11/24/SpringBoot无法启动，启动后报404错误/</id>
+    <title>Java性能调优的11个实用技巧</title>
+    <link href="http://wushuning.com/2017/11/24/Java%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98%E7%9A%8411%E4%B8%AA%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+    <id>http://wushuning.com/2017/11/24/Java性能调优的11个实用技巧/</id>
     <published>2017-11-23T16:00:00.000Z</published>
-    <updated>2018-10-18T15:20:02.836Z</updated>
+    <updated>2018-10-18T15:26:52.084Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="SpringBoot无法启动"><a href="#SpringBoot无法启动" class="headerlink" title="SpringBoot无法启动"></a>SpringBoot无法启动</h1><p>可能的原因：直接将启动类放在了src.java.main下<br>解决方案：在main下创建自己的packadge<br>如:src.java.main.com.wzk.starter  </p><h1 id="SpringBoot正常启动，但是访问的时候提示404"><a href="#SpringBoot正常启动，但是访问的时候提示404" class="headerlink" title="SpringBoot正常启动，但是访问的时候提示404"></a>SpringBoot正常启动，但是访问的时候提示404</h1><p>原因是：controller没有被spring容器扫描到<br>解决方案1：spring boot默认扫描启动类的当前包和下级包<br>比如：启动类在 com.wzk.starter包下，那么spring 会扫描 com.wzk.starter和com.wzk.starter.*<br>如果编写的controller没有放置在这些位置就是报错</p><p>解决方案2：配置spring boot的扫描路径<br>在启动类上面添加注解：@ComponentScan(basePackages = {“com.wzk.*”})  </p>]]></content>
+    <content type="html"><![CDATA[<p>作者：ITeye<br>来源：ITeye[<a href="http://www.iteye.com/news/32754]" target="_blank" rel="noopener">http://www.iteye.com/news/32754]</a></p><p>大多数开发人员认为性能优化是个比较复杂的问题，需要大量的经验和知识。是的，这并不没有错。诚然，优化应用程序以获得最好的性能并不是一件容易的事情，但这并不意味着你在没有获得这些经验和知识之前就不能做任何事。下面有几个很容易遵循的建议和最佳实践能够帮你创建一个性能良好的应用程序。</p><p>这些建议中的大多数都是基于Java的，但是也不一定，也有一些是可以应用于所有的应用程序和编程语言的。在我们分享基于Java的性能调优技巧之前，让我们先讨论一下这些通用的性能调优技巧。</p><h3 id="1-在必要之前，先不要优化"><a href="#1-在必要之前，先不要优化" class="headerlink" title="1.在必要之前，先不要优化"></a>1.在必要之前，先不要优化</h3><p>这可能是最最重要的性能调优技巧之一。你应该遵循常见的最佳实践，并尝试有效地实现你的用例。但这并不意味着在证明它是必要之前，替换任何标准库或构建复杂的优化。</p><p>在大多数情况下，过早的优化占用了大量的时间，使得代码难以读取和维护。更糟糕的是，这些优化通常不会带来任何好处，因为你花费了大量时间来优化应用程序的非关键部分。</p><p>那么，你如何证明你需要优化某些东西呢?</p><p>首先，你需要确定应用程序代码的速度，例如，为所有API调用指定一个最大响应时间，或者指定在特定时间范围内导入的记录数量。完成之后，你可以度量应用程序的哪些部分太慢而需要改进。当这样做之后，那么请继续看第二个调优技巧。</p><h3 id="2-使用分析器来找到真正的瓶颈"><a href="#2-使用分析器来找到真正的瓶颈" class="headerlink" title="2.使用分析器来找到真正的瓶颈"></a>2.使用分析器来找到真正的瓶颈</h3><p>在你遵循第一条建议，并确定你的应用程序的某些部分的确需要改进之后，问自己从哪里开始?</p><p>你可以用两种方法来解决这个问题:</p><p>你可以看一下你的代码，从看起来可疑或者你觉得它可能会产生问题的部分开始。<br>或者使用分析器，获取代码中每个部分的行为和性能的详细信息。<br>至于为什么应该总是遵循第二种方法。</p><p>答案应该很明显，基于分析器的方法能让你更好地理解代码的性能含义，并允许你关注最关键的部分。如果你曾经使用过分析器，你将会惊讶于代码的哪些部分造成了性能问题。然而，很多时候，你的第一次猜想会把你引向错误的方向。</p><h3 id="3-为整个应用程序创建性能测试套件"><a href="#3-为整个应用程序创建性能测试套件" class="headerlink" title="3 .为整个应用程序创建性能测试套件"></a>3 .为整个应用程序创建性能测试套件</h3><p>这是另一个帮助你避免许多意想不到问题的一般技巧，这些问题通常发生在性能改进部署到生产环境之后。你应该经常定义测试整个应用程序的性能测试套件，并在你完成性能改进之前和之后运行它。</p><p>这些额外的测试运行将帮助你识别更改的功能和性能方面的影响，并确保你不会发布一个弊大于利的更新。如果你的任务运行于应用程序的多个不同部分比如数据库或缓存，这一点尤其重要。</p><h3 id="4-首先解决最大的瓶颈问题"><a href="#4-首先解决最大的瓶颈问题" class="headerlink" title="4.首先解决最大的瓶颈问题"></a>4.首先解决最大的瓶颈问题</h3><p>在创建了测试套件并使用分析器对应用程序进行分析之后，你就有了一个需要提高性能的问题列表，这很好，但它仍然不能回答你应该从哪里开始的问题。你可以从那些可以快速搞定的开始，亦或者从最重要的问题开始。</p><p>当然前者很诱人，因为这很快就能出结果。有时，可能需要说服其他团队成员或你的管理层，性能分析是值得的。</p><p>但总的来说，我建议首先着手处理最重要的性能问题。这将为你提供最大的性能改进，而且你可能只需要修复这些问题中的几个就可以解决你的性能需求。</p><p>在了解通用性能调优技巧之后，让我们再来仔细看看一些特定于Java的调优技巧。</p><h3 id="5-使用StringBuilder以编程方式连接字符串"><a href="#5-使用StringBuilder以编程方式连接字符串" class="headerlink" title="5.使用StringBuilder以编程方式连接字符串"></a>5.使用StringBuilder以编程方式连接字符串</h3><p>在Java中有许多不同的连接字符串的选项。例如，可以使用一个简单的+或+ =、老的StringBuffer或StringBuilder。</p><p>那么，你应该选择哪种方法呢?</p><p>答案取决于连接字符串的代码。如果你以编程方式向字符串中添加新内容，例如，在for循环中，你应该使用StringBuilder。它比StringBuffer更容易使用和提供更好的性能。但是请记住，StringBuilder与StringBuffer不同，它不是线程安全的，而且可能不适合所有用例。</p><p>你只需要实例化一个新的StringBuilder，并调用append方法在字符串中添加一个新的部分。当你添加了所有的部分后，可以调用toString()方法来检索连接字符串。</p><p>下面的代码片段展示了一个简单的示例。在每次迭代过程中，这个循环将i转换成一个字符串，并将其添加到StringBuilder sb的空间中，因此到最后，这段代码写入“this is test0123456789”到日志文件。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">StringBuilder sb = <span class="keyword">new</span> StringBuilder(“This is a test”);  </span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;<span class="number">10</span>; i++) &#123;  </span><br><span class="line">    sb.append(i);  </span><br><span class="line">    sb.append(” “);  </span><br><span class="line">&#125;  </span><br><span class="line">log.info(sb.toString());</span><br></pre></td></tr></table></figure><p>正如在代码片段中看到的，你可以为构造函数方法提供字符串的第一个元素。这将创建一个新的StringBuilder，其中包含提供的字符串和16个额外字符的容量。当你向StringBuilder中添加更多字符时，JVM将动态地改变StringBuilder的大小。</p><p>如果你已经知道自己的字符串包含多少字符，那么你可以向不同的构造函数方法提供这个数字，以实例化一个具有被定义容量的StringBuilder。这进一步提高了它的效率，因为它不需要动态扩展它的容量。</p><h3 id="6-在声明中使用-连接字符串"><a href="#6-在声明中使用-连接字符串" class="headerlink" title="6.在声明中使用+连接字符串"></a>6.在声明中使用+连接字符串</h3><p>当你在Java中实现第一个应用程序时，可能有人告诉你不应该用＋来连接字符串。如果在应用程序逻辑中连接字符串这是正确的。字符串是不可变的，每个字符串连接的结果存储在一个新的字符串对象中。这需要额外的内存，并降低应用程序的速度，特别是在循环中连接多个字符串时。</p><p>在这些情况下，你应该遵循tip 5并使用StringBuilder。</p><p>但如果你只是将一个字符串分解成多行来提高代码的可读性，那就不是这样了。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Query q = em.createQuery(“SELECT a.id, a.firstName, a.lastName ”  </span><br><span class="line">+ “FROM Author a ”  </span><br><span class="line">+ “WHERE a.id = :id”);</span><br></pre></td></tr></table></figure><p>在这些情况下，你应该用一个简单的+来连接你的字符串。Java编译器将优化它并在编译时执行连接。因此，在运行时，代码只使用1个字符，不需要连接。</p><h3 id="7-尽可能使用基本数据类型"><a href="#7-尽可能使用基本数据类型" class="headerlink" title="7.尽可能使用基本数据类型"></a>7.尽可能使用基本数据类型</h3><p>另一种避免开销，提高应用程序性能的快速方法就是使用原始数据类型而不是它们的包装类。因此，最好是使用int而不是Integer，或者是double而不是Double。这将让JVM将值存储在堆栈中，以减少内存消耗，并更有效地处理它。</p><h3 id="8-尽量避免BigInteger和BigDecimal"><a href="#8-尽量避免BigInteger和BigDecimal" class="headerlink" title="8.尽量避免BigInteger和BigDecimal"></a>8.尽量避免BigInteger和BigDecimal</h3><p>由于我们已经讨论了数据类型，我们再来看下BigInteger和BigDecimal。尤其是后者，由于其精度高而受欢迎。但这是有代价的。<br>BigInteger和BigDecimal比简单的long或double需要更多的内存，并且大大降低所有的计算速度。因此，如果你需要额外的精度，或者你的数字超过了一个long范围，最好三思而后行。这可能是你在提升性能问题中唯一需要更改的地方，特别是当你正在实现一个数学算法。</p><h3 id="9-首先检查当前日志级别"><a href="#9-首先检查当前日志级别" class="headerlink" title="9.首先检查当前日志级别"></a>9.首先检查当前日志级别</h3><p>这个建议是显而易见的，但不幸的是，你会发现许多代码忽略它。在创建调试消息之前，应该先检查当前日志级别。</p><p>这里有两个例子来说明你不应该这样做。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// don’t do this  </span></span><br><span class="line">log.debug(“User [” + userName + “] called method X with [” + i + “]”);  </span><br><span class="line"><span class="comment">// or this  </span></span><br><span class="line">log.debug(String.format(“User [%s] called method X with [%d]”, userName, i));</span><br></pre></td></tr></table></figure><p>在这两种情况下，你将执行所有需要的步骤来创建日志消息，而不知道日志框架是否使用日志消息。在创建调试消息之前，最好先检查当前日志级别。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// do this  </span></span><br><span class="line"><span class="keyword">if</span> (log.isDebugEnabled()) &#123;  </span><br><span class="line">    log.debug(“User [” + userName + “] called method X with [” + i + “]”);  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="10-使用Apache-Commons-StringUtils-Replace-代替String-replace"><a href="#10-使用Apache-Commons-StringUtils-Replace-代替String-replace" class="headerlink" title="10.使用Apache Commons StringUtils.Replace 代替String.replace"></a>10.使用Apache Commons StringUtils.Replace 代替String.replace</h3><p>一般来说,String.replace 方法工作得很好，而且非常高效，特别是如果你使用的是Java 9。但是，如果应用程序需要大量的替换操作，并且你还没有更新到最新的Java版本，那么检查更快和更有效的替代方案仍然是有意义的。</p><p>一个候选就是 Apache Commons Lang’s StringUtils.replace 方法。正如Lukas Eder在他最近的一篇博客文章中所描述的那样，它大大超过了Java 8的String.replace 方法。</p><p>它只需要很小的改变。你只需要为Apache’s Commons Lang 项目增加一个Maven依赖项到你的应用pom.xml，并用StringUtils.replace方法替换所有String.replace方法的调用。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// replace this  </span></span><br><span class="line">test.replace(“test”, “simple test”);  </span><br><span class="line"><span class="comment">// with this  </span></span><br><span class="line">StringUtils.replace(test, “test”, “simple test”);</span><br></pre></td></tr></table></figure><h3 id="11-缓存昂贵的资源，比如数据库连接"><a href="#11-缓存昂贵的资源，比如数据库连接" class="headerlink" title="11.缓存昂贵的资源，比如数据库连接"></a>11.缓存昂贵的资源，比如数据库连接</h3><p>缓存是一种流行的解决方案来避免重复执行昂贵或频繁使用的代码片段。一般的想法很简单:重复使用这些资源比一次又一次地创建一个新的资源要便宜得多。</p><p>一个典型的例子就是在池中缓存数据库连接。创建新连接需要时间，如果重用现有连接，则可以避免。</p><p>还可以在Java语言本身中找到其他示例。例如，Integer类的valueOf方法缓存了- 128和127之间的值。你可能会说，创建一个新整数并不太贵，但它经常使用，缓存最常用的值提供了性能方面的好处。</p><p>但当你考虑缓存时，请记住，缓存实现也会产生开销。你需要花费额外的内存来存储可重用资源，因此可能需要管理你的缓存，以使资源能够访问或删除过时的资源。</p><p>因此，在你开始缓存任何资源之前，请确保是经常使用。</p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>正如你所看到的，提高应用程序的性能有时不需要做大量的工作。这篇文章中的大多数建议，其实只需要稍微的努力就可以将它们应用到代码中。</p><p>但通常最重要的建议是很编程语言无关的:</p><ul><li>在你知道有必要之前，不要优化</li><li>使用分析器来找到真正的瓶颈</li><li>首先解决最大的瓶颈问题</li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;SpringBoot无法启动&quot;&gt;&lt;a href=&quot;#SpringBoot无法启动&quot; class=&quot;headerlink&quot; title=&quot;SpringBoot无法启动&quot;&gt;&lt;/a&gt;SpringBoot无法启动&lt;/h1&gt;&lt;p&gt;可能的原因：直接将启动类放在了src.jav
+        &lt;p&gt;作者：ITeye&lt;br&gt;来源：ITeye[&lt;a href=&quot;http://www.iteye.com/news/32754]&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.iteye.com/news/32754]&lt;/a&gt;&lt;/p&gt;
+&lt;
       
     
     </summary>
     
-      <category term="springboot" scheme="http://wushuning.com/categories/springboot/"/>
+      <category term="java" scheme="http://wushuning.com/categories/java/"/>
     
     
-      <category term="springboot" scheme="http://wushuning.com/tags/springboot/"/>
+      <category term="java性能" scheme="http://wushuning.com/tags/java%E6%80%A7%E8%83%BD/"/>
     
   </entry>
   
@@ -512,35 +539,9 @@
       <category term="java" scheme="http://wushuning.com/categories/java/"/>
     
     
-      <category term="mac" scheme="http://wushuning.com/tags/mac/"/>
-    
       <category term="java" scheme="http://wushuning.com/tags/java/"/>
     
-  </entry>
-  
-  <entry>
-    <title>mac中配置eclipse启动使用的jdk，eclipse.ini文件</title>
-    <link href="http://wushuning.com/2017/09/24/mac%E4%B8%AD%E9%85%8D%E7%BD%AEeclipse%E5%90%AF%E5%8A%A8%E4%BD%BF%E7%94%A8%E7%9A%84jdk%EF%BC%8Ceclipse-ini%E6%96%87%E4%BB%B6/"/>
-    <id>http://wushuning.com/2017/09/24/mac中配置eclipse启动使用的jdk，eclipse-ini文件/</id>
-    <published>2017-09-23T16:00:00.000Z</published>
-    <updated>2018-10-18T15:31:24.816Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="设置eclipse使用的jdk"><a href="#设置eclipse使用的jdk" class="headerlink" title="设置eclipse使用的jdk"></a>设置eclipse使用的jdk</h2><ul><li>application中找到eclipse右键show content找到eclipse的配置文件eclipse.ini</li><li>增加配置如下  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">-vm</span><br><span class="line">/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home</span><br></pre></td></tr></table></figure></li></ul><p>其中jdk的路径可以通过命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/libexec/java_home -V</span><br></pre></td></tr></table></figure></p><p>最后是大写的V查看</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;设置eclipse使用的jdk&quot;&gt;&lt;a href=&quot;#设置eclipse使用的jdk&quot; class=&quot;headerlink&quot; title=&quot;设置eclipse使用的jdk&quot;&gt;&lt;/a&gt;设置eclipse使用的jdk&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;application中
-      
-    
-    </summary>
-    
-      <category term="eclipse" scheme="http://wushuning.com/categories/eclipse/"/>
-    
-    
-      <category term="eclipse" scheme="http://wushuning.com/tags/eclipse/"/>
+      <category term="mac" scheme="http://wushuning.com/tags/mac/"/>
     
   </entry>
   
