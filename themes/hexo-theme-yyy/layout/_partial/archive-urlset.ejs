@@ -1,0 +1,31 @@
+<article class="article article-links article-type-list" itemscope="">
+  <!-- <header class="article-header">
+    <h1 itemprop="title"><%= page.title %></h1>
+  </header> -->
+  <div class="article-body">
+    <% for (var type in site.data.urlset) { %>
+    <div class="panel" style="margin-bottom: 10px">
+      <div class="panel-heading" style="border-bottom: 0px">
+        <span style="font-size: 18px"> <%= type %></span>
+      </div>
+      <div class="panel-body">
+        <div class="row">
+          <% for (var link in site.data.urlset[type]) { %>
+            <% var item = site.data.urlset[type][link]; %>
+            <div class="col-sm-6 col-md-3" style="margin-bottom: 10px">
+              <div class="panel panel-default hover-shadow hover-grow">
+                <figure class="media media-middle">
+                  <div class="media-body p-0x">
+                    <h4 class="media-heading"><a href="<%= item.link %>" target="_blank"><span class="text-blue" style="font-size: 14px;font-weight: 700"><%= link %></span></a></h4>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          <% } %>
+        </div>
+      </div>
+    </div>
+    <% }%>
+  </div>
+</article>
+

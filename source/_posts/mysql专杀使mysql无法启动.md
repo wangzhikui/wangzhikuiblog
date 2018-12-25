@@ -1,6 +1,6 @@
 ---
 title: mysql专杀使mysql无法启动
-categories: mysql
+categories: 数据库
 tags: [mysql,数据库]
 date: 2013-01-02
 ---

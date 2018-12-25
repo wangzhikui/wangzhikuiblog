@@ -1,6 +1,6 @@
 ---
 title: html-input-type-text 标签属性和方法
-categories: html
+categories: web前端
 tags: [html]
 date: 2013-01-06
 ---

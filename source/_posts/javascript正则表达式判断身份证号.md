@@ -1,6 +1,6 @@
 ---
 title: javascript正则表达式判断身份证号
-categories: javascript
+categories: web前端
 tags: [javascript,正则表达式]
 date: 2012-01-12
 ---

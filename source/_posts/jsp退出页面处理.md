@@ -1,6 +1,6 @@
 ---
 title: jsp退出页面处理
-categories: jsp
+categories: web前端
 tags: [jsp,servlet]
 date: 2012-01-14
 ---

@@ -1,6 +1,6 @@
 ---
 title: oracle-addbatch数组越界错误
-categories: oracle
+categories: 数据库
 tags: [mysql,数据库]
 date: 2013-01-03
 ---

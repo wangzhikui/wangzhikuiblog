@@ -1,7 +1,7 @@
 ---
 title: sqlserver系统函数把int类型的1显示为char类型的001
-categories: SQLServer
-tags: [SQLServer]
+categories: 数据库
+tags: [SQLServer,数据库]
 date: 2014-01-06
 ---
 

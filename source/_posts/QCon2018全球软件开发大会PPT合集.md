@@ -1,7 +1,7 @@
 ---
 title: QCon2018全球软件开发大会PPT合集
-categories: 开发者大会
-tags: [笔记]
+categories: 笔记
+tags: [开发者大会,qcon]
 date: 2018-10-24
 ---
 

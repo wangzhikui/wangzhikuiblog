@@ -1,7 +1,7 @@
 ---
 title: MAC破解安装IntelliJ IDEA方法
-categories: idea
-tags: idea
+categories: mac
+tags: [idea,mac,研发工具]
 date: 2018-01-11
 ---
 

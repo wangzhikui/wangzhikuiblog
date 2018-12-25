@@ -1,7 +1,7 @@
 ---
-title: html-input-type-text 标签属性和方法
-categories: html
-tags: [html]
+title: j2ee_5中mail包与使用的mail包冲突解决
+categories: java
+tags: [java,eclipse]
 date: 2013-01-07
 ---
 ``` java

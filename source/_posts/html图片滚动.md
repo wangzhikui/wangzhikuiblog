@@ -1,6 +1,6 @@
 ---
-title: jsp-关于request和reponse退出时的位置定向问题
-categories: jsp
+title: html图片滚动
+categories: web前端
 tags: [jsp,servlet]
 date: 2014-01-03
 ---

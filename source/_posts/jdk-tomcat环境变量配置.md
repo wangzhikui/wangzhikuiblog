@@ -1,6 +1,6 @@
 ---
 title: jdk tomcat 环境变量配置
-categories: jdk
+categories: java
 tags: [jdk,tomcat,环境变量]
 date: 2012-01-11
 ---

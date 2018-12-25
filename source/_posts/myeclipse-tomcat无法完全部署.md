@@ -1,6 +1,6 @@
 ---
 title: myeclipse-tomcat无法完全部署
-categories: eclipse
+categories: 研发工具
 tags: [eclipse,MyEclipse]
 date: 2012-01-15
 ---

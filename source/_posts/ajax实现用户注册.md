@@ -1,6 +1,6 @@
 ---
 title: ajax实现用户注册
-categories: ajax
+categories: web前端
 tags: [ajax]
 date: 2013-01-05
 ---

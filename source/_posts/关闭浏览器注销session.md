@@ -1,7 +1,7 @@
 ---
 title: 关闭浏览器注销session
-categories: web
-tags: [web]
+categories: web前端
+tags: [web前端]
 date: 2014-01-05
 ---
 ``` js

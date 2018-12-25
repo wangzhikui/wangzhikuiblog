@@ -1,7 +1,7 @@
 ---
-title: SQLServer-企业管理器无法打开
-categories: SQLServer
-tags: [SQLServer]
+title: tomcat多项目配置
+categories: tomcat
+tags: [tomcat]
 date: 2014-01-01
 ---
 

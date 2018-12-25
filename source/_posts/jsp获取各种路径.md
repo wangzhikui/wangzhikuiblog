@@ -1,6 +1,6 @@
 ---
 title: jsp获取各种路径
-categories: jsp
+categories: web前端
 tags: [jsp,servlet]
 date: 2012-01-13
 ---

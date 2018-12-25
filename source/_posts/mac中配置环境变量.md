@@ -1,7 +1,7 @@
 ---
 title: mac中配置环境变量
 categories: mac
-tags: mac
+tags: [mac,环境变量]
 date: 2016-12-06
 ---
 ## mac修改环境变量

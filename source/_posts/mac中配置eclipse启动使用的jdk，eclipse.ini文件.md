@@ -1,7 +1,7 @@
 ---
 title: mac中配置eclipse启动使用的jdk，eclipse.ini文件
-categories: eclipse
-tags: eclipse
+categories: 研发工具
+tags: [mac,eclipse,研发工具]
 date: 2017-09-24
 ---
 ## 设置eclipse使用的jdk

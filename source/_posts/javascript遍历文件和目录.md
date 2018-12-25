@@ -1,6 +1,6 @@
 ---
 title: javascript遍历指定目录所有文件
-categories: javascript
+categories: web前端
 tags: [javascript]
 date: 2013-01-01
 ---

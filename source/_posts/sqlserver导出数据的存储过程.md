@@ -1,7 +1,7 @@
 ---
 title: SQLServer 导出数据的存储过程
-categories: SQLServer
-tags: [SQLServer]
+categories: 数据库
+tags: [SQLServer,数据库]
 date: 2012-01-18
 ---
 ``` sql

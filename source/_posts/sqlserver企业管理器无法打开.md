@@ -1,7 +1,7 @@
 ---
 title: SQLServer-企业管理器无法打开
-categories: SQLServer
-tags: [SQLServer]
+categories: 数据库
+tags: [SQLServer,数据库]
 date: 2012-01-20
 ---
 

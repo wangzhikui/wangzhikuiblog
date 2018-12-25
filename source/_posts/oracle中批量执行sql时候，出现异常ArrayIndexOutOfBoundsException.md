@@ -1,7 +1,7 @@
 ---
 title: oracle中批量执行sql时候，出现异常ArrayIndexOutOfBoundsException
-categories: oracle
-tags: oracle
+categories: 数据库
+tags: [oracle,数据库]
 date: 2015-03-17
 ---
 

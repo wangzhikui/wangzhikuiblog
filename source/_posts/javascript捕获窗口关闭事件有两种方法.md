@@ -1,6 +1,6 @@
 ---
 title: javascript捕获窗口关闭事件有两种方法
-categories: javascript
+categories: web前端
 tags: [javascript]
 date: 2013-01-10
 ---

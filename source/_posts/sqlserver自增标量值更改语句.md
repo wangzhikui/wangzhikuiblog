@@ -1,7 +1,7 @@
 ---
 title: SQLServer-自增标量值更改语句
-categories: SQLServer
-tags: [SQLServer]
+categories: 数据库
+tags: [SQLServer,数据库]
 date: 2012-01-17
 ---
 ```sql
