@@ -142,7 +142,7 @@ Node:
     desc: 为企业级框架和应用而生
   pm2:
     link: https://pm2.io
-    logo:
+    logo: /images/logo/pm2-logo.png
     desc: nodejs 进程管理工具
 服务:
   BootCDN:
@@ -165,7 +165,7 @@ Node:
     link: https://maxiang.io/
     logo: /images/logo/maxiang-logo.png
     desc: 在线markdown编辑
-  mock:
+  mockjs:
     link: http://mockjs.com/
     logo: /images/logo/mock-logo.svg
     desc: 生成随机数据，拦截Ajax请求
@@ -177,6 +177,10 @@ Node:
     link: https://translate.google.cn/
     logo: /images/logo/google-logo.svg
     desc: 谷歌翻译
+  yapi:
+    link: http://yapi.demo.qunar.com/
+    logo: /images/logo/qunar-logo.png
+    desc: 接口管理，mock服务
 博客搭建:
   hexo:
     link: https://hexo.io/zh-cn/
@@ -219,4 +223,8 @@ Node:
     link: https://aotu.io/notes/
     logo: /images/logo/aotu-logo.png
     desc: 凹凸实验室
+  YMFE:
+    link: https://ymfe.org/
+    logo: /images/logo/ymfe-logo.png
+    desc: 去哪儿网大前端技术中心
 
