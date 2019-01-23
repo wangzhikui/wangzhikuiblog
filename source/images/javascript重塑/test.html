@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+<script>
+var testArray1=[]
+var testArray2=[]
+function reset(){
+  var count = document.getElementById("count").value
+  for(var i=0; i<count;i++){
+    testArray1.push(i)
+    testArray2.push(i+count)
+  }
+}
+function setValue(id,value){
+  document.getElementById(id).innerHTML = value
+}
+function testApply(){
+  //初始化数组
+  reset()
+  var startTime=0
+  var endTime=0
+  console.log('开始：'+ (startTime=new Date().getTime()))
+  setValue("startTime",startTime)
+  var result=Array.prototype.push.apply(testArray1,testArray2) // result为合并后的数组长度
+  console.log(result)
+  console.log('结束：'+ (endTime=new Date().getTime()))
+  setValue("endTime",endTime)
+  console.log('耗时：'+(endTime-startTime))
+  setValue("totalTime",endTime-startTime)
+}
+function testConcat(){
+  //初始化数组
+  reset()
+  var startTime=0
+  var endTime=0
+  console.log('开始：'+ (startTime=new Date().getTime()))
+  setValue("startTime",startTime)
+  var result=testArray1.concat(testArray2) //result为合并后的数组
+  console.log(result.length)
+  console.log('结束：'+ (endTime=new Date().getTime()))
+  setValue("endTime",endTime)
+  console.log('耗时：'+(endTime-startTime))
+  setValue("totalTime",endTime-startTime)
+}
+
+</script>
+</head>
+
+<body>
+  <input type="text" id="count"></input>
+  <button onclick="testApply()">testApply</button>
+  <button onclick="testConcat()">testConcat</button>
+  <br>
+  <ul>
+    <li>开始:<div id="startTime"></div></li>
+    <li>结束:<div id="endTime"></div></li>
+    <li>耗时:<div id="totalTime"></div>毫秒</li>
+  </ul>
+</body>
+
+</html>

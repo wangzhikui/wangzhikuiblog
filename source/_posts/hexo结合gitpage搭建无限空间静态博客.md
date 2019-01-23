@@ -149,6 +149,83 @@ hexo new test
 ### 手动创建
 直接在_posts文件夹下创建一个test.md的文件即可
 
+
+# 高亮代码块添加复制功能
+## 使用第三方插件clipboard.js
+
+[clipboard.js](https://raw.githubusercontent.com/zenorocha/clipboard.js/master/dist/clipboard.js)
+[clipboard.min.js](https://raw.githubusercontent.com/zenorocha/clipboard.js/master/dist/clipboard.min.js) 推荐
+
+## 步骤一、下载文件保存到 themes/hexo-theme-yyy/source/js 下
+
+## 步骤二、创建文件: clipboard-use.js 放到themes/hexo-theme-yyy/source/js下内容如下
+```javascript
+/*页面载入完成后，创建复制按钮*/
+!function (e, t, a) { 
+  /* code */
+  var initCopyCode = function(){
+    var copyHtml = '';
+    copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+    copyHtml += '  <i class="fa fa-globe"></i><span>copy</span>';
+    copyHtml += '</button>';
+    $(".highlight .code pre").before(copyHtml);
+    new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+            return trigger.nextElementSibling;
+        }
+    });
+  }
+  initCopyCode();
+}(window, document);
+```
+## 步骤三、修改 themes/hexo-theme-yyy/layout/_common/script.ejs 
+在末尾添加,注意一定先添加clipboard.min，另外后面不带.js后缀
+```javascript
+<%- js('js/clipboard.min') %>
+<%- js('js/clipboard-use') %>
+```
+## 步骤四、在如下两个css中添加样式代码
+themes/hexo-theme-yyy/source/css/style.css
+themes/hexo-theme-yyy/source/css/style.min.css
+```css
+.highlight{
+  position: relative;
+}
+.btn-copy {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #eee;
+    background-image: linear-gradient(#fcfcfc,#eee);
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #333;
+    -webkit-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+    padding: 2px 6px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    opacity: 0;
+}
+.btn-copy span {
+    margin-left: 5px;
+}
+.highlight:hover .btn-copy{
+  opacity: 1;
+}
+```
+## 复制功能参考
+https://www.jianshu.com/p/3e9d614c1e77
+
 # 未完待续  
 
 > hexo的_config.yml和themes_config.yml分别有哪些重要配置

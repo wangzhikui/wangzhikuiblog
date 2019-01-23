@@ -1,4 +1,17 @@
 #导航 nav
+语言:
+  TypeScript:
+    link: http://www.typescriptlang.org/
+    logo: /images/logo/typescript-logo.png
+    desc: javascript 的超集
+  TypeScript中文:
+    link: https://zhongsp.gitbooks.io/typescript-handbook/
+    logo: /images/logo/typescript-logo.png
+    desc: javascript 的超集
+  GraphQL:
+    link: http://graphql.cn/
+    logo: /images/logo/graphql-logo.svg
+    desc: 一种用于 API 的查询语言
 开发社区:
   掘金:
     link: https://juejin.im/
@@ -20,6 +33,10 @@
     link: https://www.docschina.org/
     logo: /images/logo/docschina-logo.png
     desc: 权威的中文技术文档社区
+  css88:
+    link: https://www.css88.com/
+    logo:
+    desc: css88 专注前端开发 中文文档
   MDN:
     link: https://developer.mozilla.org/
     logo: /images/logo/mdn-logo.png
@@ -36,6 +53,10 @@
     link: https://fequan.com/
     logo: /images/logo/fequan-logo.png
     desc: 前端圈
+  w3cplus:
+    link: https://www.w3cplus.com/
+    logo: /images/logo/w3cplus-logo.png
+    desc: w3cplus
 框架类库:
   Angular:
     link: https://www.angular.cn/
@@ -49,6 +70,18 @@
     link: https://reactjs.org/
     logo: /images/logo/react-logo.png
     desc: A js library for building user interfaces
+  React中文:
+    link: https://react.docschina.org/
+    logo: /images/logo/react-logo.png
+    desc: react 中文文档 印记中文翻译
+  React中文2:
+    link: https://react.css88.com/
+    logo: /images/logo/react-logo.png
+    desc: react 中文文档 css88翻译
+  React-china论坛: 
+    link: http://react-china.org/
+    logo: /images/logo/react-logo.png
+    desc: react 中文论坛
   React Native:
     link: https://reactnative.cn/
     logo: /images/logo/react-logo.png
@@ -94,6 +127,14 @@
     link: https://threejs.org/
     logo: /images/logo/threejs-logo.png
     desc: 3D引擎
+  Uber库:
+    link: http://kepler.gl/#/
+    logo:
+    desc: Uber的一个开源可视化库
+  mapbox:
+    link: https://www.mapbox.com/
+    logo:
+    desc: mapbox
 构建工具:
   Gulp中文网:
     link: https://www.gulpjs.com.cn/
@@ -103,6 +144,10 @@
     link: https://www.webpackjs.com/
     logo: /images/logo/webpack-logo.png
     desc: 打包所有的脚本
+  Rollup:
+    link: https://rollup.docschina.org/
+    logo: /images/logo/rollup-logo.png
+    desc: js模块打包工具
   Grunt中文网:
     link: https://www.gruntjs.net/
     logo: /images/logo/grunt-logo.png
@@ -181,6 +226,10 @@ Node:
     link: http://yapi.demo.qunar.com/
     logo: /images/logo/qunar-logo.png
     desc: 接口管理，mock服务
+  codepen:
+    link: https://codepen.io/
+    logo: /images/logo/codepen-logo.png
+    desc: 在线运行js环境 
 博客搭建:
   hexo:
     link: https://hexo.io/zh-cn/
