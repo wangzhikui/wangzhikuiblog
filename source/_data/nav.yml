@@ -230,6 +230,10 @@ Node:
     link: https://codepen.io/
     logo: /images/logo/codepen-logo.png
     desc: 在线运行js环境 
+  iconfont:
+    link: https://www.iconfont.cn/
+    logo: /images/logo/iconfont-logo.png
+    desc: 阿里矢量图
 博客搭建:
   hexo:
     link: https://hexo.io/zh-cn/
@@ -276,4 +280,8 @@ Node:
     link: https://ymfe.org/
     logo: /images/logo/ymfe-logo.png
     desc: 去哪儿网大前端技术中心
+  美团:
+    link: https://tech.meituan.com/
+    logo:
+    desc: 美团技术团队
 

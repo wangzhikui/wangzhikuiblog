@@ -14,6 +14,8 @@
     link: http://www.finereporthelp.com
   tableau:
     link: https://www.tableau.com/
+  leancloud:
+    link: https://leancloud.cn/
 河蟹:
   byteconf:
     link: https://www.byteconf.com/
@@ -44,6 +46,10 @@ yonyou:
     link: https://mock.yonyoucloud.com
   用友直播:
     link: https://vzan.com/live/livedetail-341209
+  云端架构书:
+    link: http://123.103.9.194:4003/
+  wps云:
+    link: https://dirve.wps.cn
 前端:
   微信公众号平台:
     link: https://mp.weixin.qq.com/
