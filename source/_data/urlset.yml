@@ -98,7 +98,7 @@ yonyou:
   极客帮:
     link: https://www.geekbang.org/
   iTeye:
-    link: https://juejin.im
+    link: https://www.iteye.com/
   CSDN:
     link: http://www.csdn.net/
   知乎:
@@ -117,8 +117,6 @@ yonyou:
     link: http://www.newrank.com
   人人都是产品经理:
     link: http://www.woshipm.com/
-  develper-apple:
-    link: https://developer.apple.com/
   cocoachina:
     link: http://www.cocoachina.com
   swift:
@@ -141,6 +139,8 @@ yonyou:
     link: http://www.ruanyifeng.com/
   大漠:
     link: http://www.w3cplus.com/
+  纯洁的微笑:
+    link: http://www.ityouknow.com/
 在线教育:
   慕课:
     link: https://www.imooc.com/
@@ -154,19 +154,17 @@ yonyou:
     link: http://www.langsin.com/
   极客学院:
     link: http://wiki.jikexueyuan.com
+  开课吧:
+    link: https://www.kaikeba.com/
 其他:
-  亚马逊:
-    link: https://www.amazon.cn
-  京东:
-    link: http://www.jd.com
   12306:
     link: http://www.12306.cn/
   readfree:
     link: http://readfree.me/
+  苦瓜网盘:
+    link: https://www.kgbook.com/
   小调网:
     link: http://www.xiaopian.com/
-  爱奇艺:
-    link: http://www.iqiyi.com/
   爱羽客:
     link: http://www.aiyuke.com
   在线作图:
@@ -179,5 +177,3 @@ yonyou:
     link: http://www.8isp.cn/
   jhost:
     link: http://www.jhost.cn/
-  谷歌翻译:
-    link: https://translate.google.cn/

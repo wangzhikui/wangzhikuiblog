@@ -1,4 +1,17 @@
 #导航 nav
+在线教育:
+  极客帮:
+    link: https://www.geekbang.org/
+    logo:
+    desc: 极客帮
+  极客时间:
+    link: https://time.geekbang.org/
+    logo: /images/logo/geekbang-logo.png
+    desc: 极客时间
+  GitChat:
+    link: https://gitbook.cn/
+    logo: /images/logo/gitchat-logo.png
+    desc: GitChat
 语言:
   TypeScript:
     link: http://www.typescriptlang.org/
@@ -78,6 +91,10 @@
     link: https://react.css88.com/
     logo: /images/logo/react-logo.png
     desc: react 中文文档 css88翻译
+  Redux:
+    link: https://cn.redux.js.org/
+    logo: /images/logo/redux-logo.svg
+    desc: redux 中文文档
   React-china论坛: 
     link: http://react-china.org/
     logo: /images/logo/react-logo.png
@@ -256,6 +273,10 @@ Node:
     link: http://www.alloyteam.com/
     logo: /images/logo/tencent-logo.png
     desc: 腾讯 alloyteam
+  腾讯 ivweb:
+    link: https://ivweb.io/
+    logo: /images/logo/tencent-logo.png
+    desc: 腾讯 ivweb
   腾讯 ISUX团队:
     link: https://isux.tencent.com/
     logo: /images/logo/isux-logo.svg
