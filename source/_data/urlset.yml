@@ -33,7 +33,7 @@ yonyou:
   敏捷开发平台:
     link: http://172.16.50.111/dashboard.action
   云音jira:
-    link: http://172.16.50.197:8080
+    link: https://ncc.jira.yonyou.com
   云音协作:
     link: http://172.16.50.96/pages/viewpage.action?pageId=82716325
   git yonyou:
