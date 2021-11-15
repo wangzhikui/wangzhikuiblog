@@ -6,7 +6,7 @@ date: 2018-10-19
 ---
 
 # 什么是Hexo
-Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 [Markdown](http://wushuning.com/2018/10/01/markdown/)（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。  
+Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 [Markdown](http://wangzhikui.com/2018/10/01/markdown/)（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。  
 生成静态网页即可托管到任何支持静态网页的服务器上。
 
 # 什么是GitPage
@@ -41,7 +41,7 @@ Git
 到此为止GitPages已经可以使用，提交到wangzhikui.github.io的静态或markdown形式的文件会自动同步到GitPages空间。可通过http://wangzhikui.github.io访问。
 
 # 配置域名(无此需要可跳过)
-## 一、上一步GitPages设置中设置域名如：wushuning.com
+## 一、上一步GitPages设置中设置域名如：wangzhikui.com
 
 ## 二、配置域名的A地址和CNAME别名
 
@@ -49,7 +49,7 @@ Git
 
 ![域名配置](/images/hexo/域名配置.png)
 
-## 三、项目根目录中添加名为CNAME的文件，内容为 wushuning.com
+## 三、项目根目录中添加名为CNAME的文件，内容为 wangzhikui.com
 
 ![CNAME](/images/hexo/cname.png)
 
@@ -85,7 +85,7 @@ hexo g
 到此可通过  
 http://wangzhikui.bighub.io  
 或域名（如果配置了）  
-http://wushuning.com  
+http://wangzhikui.com  
 访问你的网站。
 
 ## 自动部署

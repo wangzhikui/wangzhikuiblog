@@ -1,5 +1,18 @@
 #个人常用网址 urlset
-最近:
+vlog:
+  B站:
+    link: https://www.bilibili.com/
+  头条:
+    link: https://www.toutiao.com/
+  西瓜创作:
+    link: https://studio.ixigua.com/content
+  小红书创作:
+    link: https://creator.xiaohongshu.com/
+  抖音创作:
+    link: https://creator.douyin.com/
+  知乎:
+    link: https://www.zhihu.com/
+未分类:
   logonews:
     link: https://www.logonews.cn/
   techmagic:
@@ -25,7 +38,15 @@
     link: https://www.facebook.com
 yonyou:
   用友友空间:
-    link: https://ec.yonyoucloud.com/static/home.html#/?qzid=5417
+    link: https://ec.diwork.com/portal/home/index
+  YonSuite:
+    link: https://yonsuite.diwork.com/#/
+  YonBuilder:
+    link: https://yoncloud-pre.diwork.com/#/
+  摩天:
+    link: https://www.imotian.com/
+  用友精智工业:
+    link: https://jingzhi.yonyoucloud.com/#/
   UDN:
     link: http://udn.yyuap.com/portal.php
   uapcloud:
@@ -101,8 +122,6 @@ yonyou:
     link: https://www.iteye.com/
   CSDN:
     link: http://www.csdn.net/
-  知乎:
-    link: http://www.zhihu.com
   stackoverflow:
     link: http://stackoverflow.com/
   verycd:

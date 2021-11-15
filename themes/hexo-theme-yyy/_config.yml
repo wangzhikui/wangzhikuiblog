@@ -3,8 +3,8 @@ menu:
   Home: .
   Archives: archives  # 归档
   Categories: categories  # 分类
-  Tags: tags  # 标签
-  Repository: repository  # github repositories
+  # Tags: tags  # 标签
+  # Repository: repository  # github repositories
   # Books: books  # 豆瓣书单
   Links: links  # 友链
   About: about  # 关于
@@ -35,7 +35,7 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: 王智魁Allen # 页面title
+  title: 王智魁 # 页面title
   favicon: /favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: true # 底部版权信息
@@ -58,14 +58,14 @@ pagination:
     alwayShow: true
 
 # Sidebar   #站点右边栏，可以调整顺序和增减内容，会自动调用主题layout/_widget目录下的同名文件
-sidebar: right
-widgets:
-  - board
-  - category
-  - tag
-  - tagcloud
-  - archive
-  - recent_posts
+# sidebar: right
+# widgets:
+#   - board
+#   - category
+#   - tag
+#   - tagcloud
+#   - archive
+#   - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -129,8 +129,8 @@ comment:
     owner: wangzhikui #必须. GitHub repository 所有者，可以是个人或者组织。
     admin: wangzhikui #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
     repo: wangzhikui.github.io #必须. GitHub repository.
-    ClientID:  #必须. GitHub Application Client ID.
-    ClientSecret:  #必须. GitHub Application Client Secret.
+    ClientID: fed3217906f39fc6e769 #必须. GitHub Application Client ID.
+    ClientSecret: 56b2ce7d6867b4f7f252e84fb3be6c338703f0b1 #必须. GitHub Application Client Secret.
   valine: # Valine. https://valine.js.org
     appid:  # your leancloud application appid
     appkey:  # your leancloud application appkey
@@ -153,20 +153,20 @@ pv:
     enable: false  # 不蒜子统计
   leancloud:
     enable: false  # leancloud统计
-    app_id: # leancloud <AppID>
-    app_key: # leancloud <AppKey>
+    app_id: GV7WreiwIzOal3QAJs1iIswO-gzGzoHsz # leancloud <AppID>
+    app_key: rd3OL3MOgjCqQJwTj85j4Auv # leancloud <AppKey>
 
 # wordcount
 postCount:
   enable: false
-  wordcount: true  # 文章字数统计
-  min2read: true  # 阅读时长预计
+  wordcount: false  # 文章字数统计
+  min2read: false  # 阅读时长预计
 
 # Plugins
 plugins:
   google_analytics: # enter the tracking ID for your Google Analytics
   google_site_verification: # enter Google site verification code
-  baidu_analytics: # enter Baidu Analytics hash key
+  baidu_analytics: 169854612c13364d6e6764c70a82c73d # enter Baidu Analytics hash key
   tencent_analytics:
 
 # Miscellaneous
@@ -178,23 +178,25 @@ fb_app_id:
 # profile
 profile:
   enabled: true # Whether to show profile bar
-  avatar: images/avatar.png
+  avatar: images/head.jpeg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 王智魁 Allen
+  author: 王智魁
   author_title: 程序员
   author_description: 写写代码，谈谈人生，聊聊八卦
-  location: 北京, 中国
-  follow: http://www.wushuning.com
+  location: 深圳, 中国
+  follow: http://www.wangzhikui.com/images/head-b.jpeg
   # Social Links
   social:
     links:
       github: https://github.com/wangzhikui
-      # weibo: http://weibo.com/cofess
+      weibo: https://weibo.com/wangzhikui86
+      linkedin: https://www.linkedin.com/in/wangzhikui/
+      zhihu: https://www.zhihu.com/people/wzkwsn
       # twitter: https://twitter.com/iwebued
       # facebook: /
       # dribbble: /
       # behance: https://www.behance.net/cofess
-      # rss: atom.xml
+      rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills
   skills:
@@ -225,30 +227,34 @@ profile:
     - 全栈
   # My Personal Works
   works:
-    维护云:
-      link: http://umc.yonyou.com
-      date: 2015
-    友云音2.0:
-      link: https://yyy2.yonyoucloud.com/
-      date: 2015-2018
-    友云音3.0:
-      link: http://yyy.yonyoucloud.com
-      date: 2016-2018
-    DataFace(在研):
-      link: 
-      date: 2018
+    koa2-bff:
+      link: https://github.com/wangzhikui/koa2-bff
+      date: 2019
     友云音FED:
       link: http://youyunyin.com
+      date: 2018
+    wangzhikuiblog:
+      link: https://github.com/wangzhikui/wangzhikuiblog
       date: 2018
     IOSPROBE:
       link: https://github.com/wangzhikui/iOSPROBE
       date: 2017-2018
-    wangzhikuiblog:
-      link: https://github.com/wangzhikui/wangzhikuiblog
+    DataFace(在研):
+      link: 
       date: 2018
     Angularjs技术库:
       link: http://wangzhikui.github.io/angularjs/index.html
       date: 2016
+    友云音3.0:
+      link: http://yyy.yonyoucloud.com
+      date: 2016-2018
+    友云音2.0:
+      link: http://yyy2.yonyoucloud.com
+      date: 2015-2018
+    维护云:
+      link: http://umc.yonyou.com
+      date: 2015
+    
   # My Personal Projects
   # projects:
   #   cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
